@@ -26,7 +26,7 @@ const userSchema = new Schema(
       required: [true, 'Password is required.']
     },
 
-    profilePicture: {
+    avatar: {
       type: String,
       // default: 
     },
@@ -37,6 +37,7 @@ const userSchema = new Schema(
 
     description: {
       type: String,
+      minlength: [20, 'Description must be 20 characters minimum']
     },
 
     friends: [{

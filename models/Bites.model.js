@@ -1,6 +1,6 @@
 const { Schema, model } = require("mongoose")
 
-const commentSchema = new Schema(
+const biteSchema = new Schema(
   {
     owner: {
       type: Schema.Types.ObjectId,
@@ -17,6 +17,6 @@ const commentSchema = new Schema(
   }
 )
 
-const Comment = model("Comment", commentSchema)
+const Bite = model("Bite", biteSchema)
 
-module.exports = Comment
+module.exports = Bite
