@@ -1,13 +1,15 @@
-module.exports = app => {
+const router = require('express').Router()
 
-    const authRoutes = require("./auth.routes")
-    app.use("/api/auth", authRoutes)
+const authRoutes = require('./auth.routes')
+router.use('/auth', authRoutes)
 
-    const userRoutes = require("./user.routes")
-    app.use("/api/user", userRoutes)
+const userRoutes = require('./user.routes')
+router.use('/user', userRoutes)
 
-    const cardRoutes = require("./card.routes")
-    app.use("/api/card", cardRoutes)
+const challengeRoutes = require('./challenge.routes')
+router.use('/card', challengeRoutes)
 
+const uploadRoutes = require('./upload.routes')
+router.use('/upload', uploadRoutes)
 
-}
+module.exports = router

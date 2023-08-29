@@ -1,6 +1,7 @@
 const { Schema, model } = require('mongoose')
 
 const bcrypt = require('bcryptjs')
+const jwt = require('jsonwebtoken')
 
 const userSchema = new Schema(
 	{
@@ -11,13 +12,13 @@ const userSchema = new Schema(
 
 		lastName: {
 			type: String,
-			required: [true, 'First name is required.'],
+			required: [true, 'Last name is required.'],
 		},
 
 		email: {
 			type: String,
 			required: [true, 'Email is required.'],
-			unique: [true, 'Email already exists'],
+			unique: true,
 			lowercase: true,
 			trim: true,
 		},
@@ -81,6 +82,22 @@ userSchema.pre('save', function (next) {
 
 	next()
 })
+
+userSchema.methods.validatePassword = function (candidatePassword) {
+	return bcrypt.compareSync(candidatePassword, this.password)
+}
+
+userSchema.methods.signToken = function () {
+	const { _id, username, email } = this
+	const payload = { _id, username, email }
+
+	const authToken = jwt.sign(payload, process.env.TOKEN_SECRET, {
+		algorithm: 'HS256',
+		expiresIn: '6h',
+	})
+
+	return authToken
+}
 
 const User = model('User', userSchema)
 
