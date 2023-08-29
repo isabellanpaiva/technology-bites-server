@@ -18,7 +18,19 @@ const deleteUser = (req, res, next) => {
 
 const editUser = (req, res, next) => {
 	const { user_id } = req.params
-	const { firstName, lastName, email, jobPosition, description } = req.body
+	const { firstName, lastName, email, jobPosition, description, platform, link } = req.body
+
+	let socials = []
+	if (typeof platform === 'object') {
+		platform.forEach((elm, idx) => {
+			let social = { platform: elm, link: link[idx] }
+			socials.push(social)
+		})
+	} else {
+		socials.push({ platform, link })
+	}
+
+	//TODO avatar from cloudinary
 
 	const userInfo = {
 		firstName,
@@ -26,6 +38,7 @@ const editUser = (req, res, next) => {
 		email,
 		jobPosition,
 		description,
+		socials,
 	}
 
 	User.findByIdAndUpdate(user_id, userInfo)
@@ -33,13 +46,10 @@ const editUser = (req, res, next) => {
 		.catch(() => res.status(404).json({ message: 'User not found.' }))
 }
 
-//TODO router para añadir amigos
 const favoritesHandler = (req, res, next) => {
 	const { action } = req.params
 	const { friend_id } = req.body
-
-	//* friend_id tiene que venir del cliente
-	//* user_id es el usuario conectado
+	const { _id: user_id } = req.payload
 
 	let updateData
 

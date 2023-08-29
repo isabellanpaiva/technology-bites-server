@@ -56,7 +56,7 @@ const userSchema = new Schema(
 			default: 'USER',
 		},
 
-		social: [
+		socials: [
 			{
 				platform: {
 					type: String,
@@ -88,8 +88,19 @@ userSchema.methods.validatePassword = function (candidatePassword) {
 }
 
 userSchema.methods.signToken = function () {
-	const { _id, username, email } = this
-	const payload = { _id, username, email }
+	const { _id, email, firstName, lastName, avatar, jobPosition, description, friends, socials } =
+		this
+	const payload = {
+		_id,
+		email,
+		firstName,
+		lastName,
+		avatar,
+		jobPosition,
+		description,
+		friends,
+		socials,
+	}
 
 	const authToken = jwt.sign(payload, process.env.TOKEN_SECRET, {
 		algorithm: 'HS256',

@@ -7,7 +7,7 @@ const userRoutes = require('./user.routes')
 router.use('/user', userRoutes)
 
 const challengeRoutes = require('./challenge.routes')
-router.use('/card', challengeRoutes)
+router.use('/challenge', challengeRoutes)
 
 const uploadRoutes = require('./upload.routes')
 router.use('/upload', uploadRoutes)
