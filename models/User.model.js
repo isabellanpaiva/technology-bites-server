@@ -88,8 +88,19 @@ userSchema.methods.validatePassword = function (candidatePassword) {
 }
 
 userSchema.methods.signToken = function () {
-	const { _id, email, firstName, lastName, avatar, jobPosition, description, friends, socials } =
-		this
+	const {
+		_id,
+		email,
+		firstName,
+		lastName,
+		avatar,
+		jobPosition,
+		description,
+		friends,
+		socials,
+		role,
+	} = this
+
 	const payload = {
 		_id,
 		email,
@@ -100,6 +111,7 @@ userSchema.methods.signToken = function () {
 		description,
 		friends,
 		socials,
+		role,
 	}
 
 	const authToken = jwt.sign(payload, process.env.TOKEN_SECRET, {

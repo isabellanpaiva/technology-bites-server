@@ -18,17 +18,17 @@ const deleteUser = (req, res, next) => {
 
 const editUser = (req, res, next) => {
 	const { user_id } = req.params
-	const { firstName, lastName, email, jobPosition, description, platform, link } = req.body
+	const { firstName, lastName, email, jobPosition, description } = req.body
 
-	let socials = []
-	if (typeof platform === 'object') {
-		platform.forEach((elm, idx) => {
-			let social = { platform: elm, link: link[idx] }
-			socials.push(social)
-		})
-	} else {
-		socials.push({ platform, link })
-	}
+	// let socials = []
+	// if (typeof platform === 'object') {
+	// 	platform.forEach((elm, idx) => {
+	// 		let social = { platform: elm, link: link[idx] }
+	// 		socials.push(social)
+	// 	})
+	// } else {
+	// 	socials.push({ platform, link })
+	// }
 
 	//TODO avatar from cloudinary
 
@@ -49,7 +49,7 @@ const editUser = (req, res, next) => {
 const favoritesHandler = (req, res, next) => {
 	const { action } = req.params
 	const { friend_id } = req.body
-	const { _id: user_id } = req.payload
+	const { _id: user_id } = req.payload.loggedUser
 
 	let updateData
 

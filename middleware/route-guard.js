@@ -1,24 +1,26 @@
-const isLoggedIn = (req, res, next) => {
-	if (req.payload) {
+const isOwner = (req, res, next) => {
+	const { user_id: owner } = req.params
+	const { _id } = req.payload
+	if (user_id === _id) {
 		next()
 	} else {
-		res.redirect('/auth/login?err=Login to access')
+		res.sendStatus(403)
 	}
 }
 
 const checkRoles =
 	(...admittedRoles) =>
 	(req, res, next) => {
-		const { role } = req.session.currentUser
+		const { role } = req.payload
 
 		if (admittedRoles.includes(role)) {
 			next()
 		} else {
-			res.redirect('/login?err=You are not authorized')
+			res.sendStatus(403)
 		}
 	}
 
 module.exports = {
-	isLoggedIn,
+	isOwner,
 	checkRoles,
 }
