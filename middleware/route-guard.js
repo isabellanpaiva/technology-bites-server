@@ -1,10 +1,11 @@
 const isOwner = (req, res, next) => {
-	const { user_id: owner } = req.params
-	const { _id } = req.payload
-	if (user_id === _id) {
+	const { user_id: owner_id } = req.params
+	const { _id: loggedUser_id } = req.payload
+
+	if (owner_id === loggedUser_id) {
 		next()
 	} else {
-		res.sendStatus(403)
+		res.sendStatus(403).json({ message: 'Unauthorized, you are not the owner' })
 	}
 }
 
@@ -16,7 +17,9 @@ const checkRoles =
 		if (admittedRoles.includes(role)) {
 			next()
 		} else {
-			res.sendStatus(403)
+			res.sendStatus(403).json({
+				message: 'You have not authorization to perform this action',
+			})
 		}
 	}
 

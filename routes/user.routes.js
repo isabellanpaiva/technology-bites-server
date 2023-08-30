@@ -11,8 +11,8 @@ const {
 } = require('../controllers/user.controllers')
 
 router.get('/getOne/:user_id', verifyToken, getOneUser)
-router.delete('/delete/:user_id', verifyToken, deleteUser)
-router.put('/edit/:user_id', verifyToken, editUser)
+router.delete('/delete/:user_id', verifyToken, isOwner, deleteUser)
+router.put('/edit/:user_id', verifyToken, isOwner, editUser)
 router.post('/favorite/:action', verifyToken, favoritesHandler)
 
 module.exports = router
