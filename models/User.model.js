@@ -94,10 +94,6 @@ userSchema.methods.signToken = function () {
 		firstName,
 		lastName,
 		avatar,
-		jobPosition,
-		description,
-		friends,
-		socials,
 		role,
 	} = this
 
@@ -107,10 +103,6 @@ userSchema.methods.signToken = function () {
 		firstName,
 		lastName,
 		avatar,
-		jobPosition,
-		description,
-		friends,
-		socials,
 		role,
 	}
 

@@ -18,6 +18,7 @@ const challengeSchema = new Schema(
 				},
 				response: {
 					type: String,
+					minlength: [1, `Response can't be empty`]
 				},
 			},
 		],
