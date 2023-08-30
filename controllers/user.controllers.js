@@ -20,25 +20,12 @@ const editUser = (req, res, next) => {
 	const { user_id } = req.params
 	const { firstName, lastName, email, jobPosition, description } = req.body
 
-	// let socials = []
-	// if (typeof platform === 'object') {
-	// 	platform.forEach((elm, idx) => {
-	// 		let social = { platform: elm, link: link[idx] }
-	// 		socials.push(social)
-	// 	})
-	// } else {
-	// 	socials.push({ platform, link })
-	// }
-
-	//TODO avatar from cloudinary
-
 	const userInfo = {
 		firstName,
 		lastName,
 		email,
 		jobPosition,
 		description,
-		socials,
 	}
 
 	User.findByIdAndUpdate(user_id, userInfo)
