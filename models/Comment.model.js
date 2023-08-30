@@ -9,6 +9,7 @@ const commentSchema = new Schema(
 
     content: {
       type: String,
+      minlength: [5, 'Minimum length is 5 characters']
     }
   },
 

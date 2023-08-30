@@ -5,50 +5,37 @@ const getOneUser = (req, res, next) => {
 
 	User.findById(user_id)
 		.then(response => res.json(response))
-		.catch(() => res.status(404).json({ message: 'User not found' }))
+		.catch(err => next(err))
 }
 
 const deleteUser = (req, res, next) => {
 	const { user_id } = req.params
 
 	User.findByIdAndDelete(user_id)
-		.then(() => res.status(200).json({ message: 'User deleted.' }))
-		.catch(() => res.status(404).json({ message: 'User not found.' }))
+		.then(() => res.sendStatus(204))
+		.catch(err => next(err))
 }
 
 const editUser = (req, res, next) => {
 	const { user_id } = req.params
-	const { firstName, lastName, email, jobPosition, description } = req.body
-
-	const userInfo = {
-		firstName,
-		lastName,
-		email,
-		jobPosition,
-		description,
-	}
+	const userInfo = { firstName, lastName, email, jobPosition, description } = req.body
 
 	User.findByIdAndUpdate(user_id, userInfo)
-		.then(() => res.status(200).json({ message: 'User updated.' }))
-		.catch(() => res.status(404).json({ message: 'User not found.' }))
+		.then(() => res.sendStatus(204))
+		.catch(err => next(err))
 }
 
 const favoritesHandler = (req, res, next) => {
+
 	const { action } = req.params
 	const { friend_id } = req.body
 	const { _id: user_id } = req.payload.loggedUser
 
-	let updateData
-
-	if (action === 'add') {
-		updateData = { $push: { friends: friend_id } }
-	} else if (action === 'remove') {
-		updateData = { $pull: { friends: friend_id } }
-	}
+	let updateData = action === 'add' ? { $push: { friends: friend_id } } : { $pull: { friends: friend_id } }
 
 	User.findByIdAndUpdate(user_id, updateData)
 		.then(() => {
-			res.status(200)
+			res.sendStatus(200)
 		})
 		.catch(err => next(err))
 }
