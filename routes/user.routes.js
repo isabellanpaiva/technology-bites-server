@@ -1,6 +1,7 @@
 const router = require('express').Router()
 
 const { verifyToken } = require('../middleware/verifyToken.middleware')
+const { isOwner } = require('../middleware/route-guard')
 
 const {
 	getOneUser,

@@ -31,7 +31,6 @@ const userSchema = new Schema(
 
 		avatar: {
 			type: String,
-			default: 'DEFAULTAVATAR',
 		},
 
 		jobPosition: {
@@ -88,14 +87,7 @@ userSchema.methods.validatePassword = function (candidatePassword) {
 }
 
 userSchema.methods.signToken = function () {
-	const {
-		_id,
-		email,
-		firstName,
-		lastName,
-		avatar,
-		role,
-	} = this
+	const { _id, email, firstName, lastName, avatar, role } = this
 
 	const payload = {
 		_id,
