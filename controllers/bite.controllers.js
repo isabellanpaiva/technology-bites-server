@@ -9,10 +9,11 @@ const createOne = (req, res, next) => {
 }
 
 const createMany = (req, res, next) => {
-	const { bitesJson } = req.file
-	Bite.insertMany(bitesJson)
-		.then(() => res.sendStatus(200))
-		.catch(err => next(err))
+	res.send('AIUDA')
+	// const { bitesJson } = req.file
+	// Bite.insertMany(bitesJson)
+	// 	.then(() => res.sendStatus(200))
+	// 	.catch(err => next(err))
 }
 
 const getOneRandom = (req, res, next) => {
