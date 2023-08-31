@@ -1,0 +1,202 @@
+[
+    {
+        "category": "Internet",
+        "definition": "The global network of connected computers and servers that enables communication, information sharing, and access to online resources."
+    },
+    {
+        "category": "HTML",
+        "definition": "A markup language used for structuring and presenting content on the web. It defines the structure of web pages using elements and tags."
+    },
+    {
+        "category": "CSS",
+        "definition": "A stylesheet language used to describe the visual presentation of HTML elements. It's used to control layout, colors, fonts, and other design aspects of web pages."
+    },
+    {
+        "category": "Client",
+        "definition": "A computer or device that interacts with a server to request and receive information or services, often through a web browser or application."
+    },
+    {
+        "category": "Server",
+        "definition": "A computer or system that stores and manages data, applications, and services, and provides them to clients over a network, such as the internet."
+    },
+    {
+        "category": "API",
+        "definition": "A set of rules and protocols that allows different software applications to communicate and interact with each other, enabling them to exchange data and functionality."
+    },
+    {
+        "category": "Database",
+        "definition": "A structured collection of data stored electronically in a way that allows for efficient storage, retrieval, and manipulation of information."
+    },
+    {
+        "category": "Algorithm",
+        "definition": "A step-by-step procedure or set of instructions for solving a problem or performing a task. In programming, algorithms guide the logic and flow of code execution."
+    },
+    {
+        "category": "Variables",
+        "definition": "Containers used to store data values in a program. They can hold different types of information and can be manipulated and referenced throughout the code."
+    },
+    {
+        "category": "Functions",
+        "definition": "Reusable blocks of code that perform specific tasks. They can take inputs, perform operations, and return results, making code more modular and easier to maintain."
+    },
+    {
+        "category": "Conditionals",
+        "definition": "Statements allowing programs to make decisions based on specified conditions, executing different code paths accordingly."
+    },
+    {
+        "category": "Loops",
+        "definition": "Control structures enabling repetitive execution of code blocks as long as specific conditions are met."
+    },
+    {
+        "category": "Data Types",
+        "definition": "Categories defining the kind of values a variable can hold, like numbers, strings, or boolean values."
+    },
+    {
+        "category": "Control Structures",
+        "definition": "Statements governing the flow of execution in a program, including conditionals and loops."
+    },
+    {
+        "category": "Version Control",
+        "definition": "Systematic tracking of changes to code files over time, aiding collaboration and rollback to previous states."
+    },
+    {
+        "category": "Terminal",
+        "definition": "Command-line interface allowing users to interact with a computer through text-based commands."
+    },
+    {
+        "category": "Object-Oriented Programming (OOP)",
+        "definition": "A programming paradigm utilizing objects and classes to structure and organize code."
+    },
+    {
+        "category": "Framework",
+        "definition": "Pre-established set of tools, libraries, and guidelines simplifying software development within a specific domain."
+    },
+    {
+        "category": "HTTP",
+        "definition": "Protocol governing the communication and exchange of data between web clients and servers."
+    },
+    {
+        "category": "Code Review",
+        "definition": "Evaluation process where peers assess code quality, adherence to standards, and potential improvements."
+    },
+    {
+        "category": "IP",
+        "definition": "Set of rules for sending and receiving data packets across networks, forming the basis of internet communication."
+    },
+    {
+        "category": "Deploy",
+        "definition": "The process of making a software application available for use, often on servers or other computing environments."
+    },
+    {
+        "category": "Inheritance",
+        "definition": "Object-oriented programming concept allowing a class to inherit attributes and behaviors from another class."
+    },
+    {
+        "category": "Encapsulation",
+        "definition": "Practice of bundling data and methods that operate on that data into a single unit, promoting modularity and security."
+    },
+    {
+        "category": "Polymorphism",
+        "definition": "Object-oriented concept enabling different classes to be treated as instances of a common superclass."
+    },
+    {
+        "category": "Github",
+        "definition": "A web-based platform for version control and collaboration, widely used for hosting and sharing code repositories."
+    },
+    {
+        "category": "React",
+        "definition": "A JavaScript library for building user interfaces, focusing on component-based and efficient UI development."
+    },
+    {
+        "category": "Node",
+        "definition": "A runtime environment enabling JavaScript to be executed server-side, facilitating web server and network applications."
+    },
+    {
+        "category": "Javascript",
+        "definition": "A widely used programming language for creating dynamic and interactive web content."
+    },
+    {
+        "category": "NPM",
+        "definition": "A package manager for JavaScript, allowing developers to easily share and manage code packages."
+    },
+    {
+        "category": "Visual Code",
+        "definition": "A popular open-source code editor developed by Microsoft, offering features for various programming languages."
+    },
+    {
+        "category": "Flexbox",
+        "definition": "A CSS layout model aimed at designing responsive and flexible web page layouts."
+    },
+    {
+        "category": "Bootstrap",
+        "definition": "A widely used front-end framework for building responsive and visually appealing web applications."
+    },
+    {
+        "category": "Python",
+        "definition": "A versatile and readable programming language often used for web development, data analysis, and scripting."
+    },
+    {
+        "category": "C",
+        "definition": "A widely-used programming language known for its low-level memory manipulation and system programming capabilities."
+    },
+    {
+        "category": "Java",
+        "definition": "A versatile, object-oriented programming language popular for building desktop, web, and mobile applications."
+    },
+    {
+        "category": "Typescript",
+        "definition": "A superset of JavaScript that adds static typing, aiding in large-scale application development."
+    },
+    {
+        "category": "MongoDB",
+        "definition": "A popular NoSQL database system that stores data in a JSON-like format."
+    },
+    {
+        "category": "Microservices",
+        "definition": "A software architecture pattern where applications are composed of small, independent services that communicate over a network."
+    },
+    {
+        "category": "Cybersecurity",
+        "definition": "The practice of protecting computer systems, networks, and data from digital attacks and unauthorized access."
+    },
+    {
+        "category": "WebAssembly",
+        "definition": "A binary instruction format enabling high-performance execution of code on web browsers."
+    },
+    {
+        "category": "Artificial Intelligence",
+        "definition": "A field of computer science focused on creating systems that can perform tasks that usually require human intelligence."
+    },
+    {
+        "category": "Machine Learning",
+        "definition": "A subset of AI that involves algorithms and statistical models allowing systems to improve their performance on a task through experience."
+    },
+    {
+        "category": "Cloud Computing",
+        "definition": "The delivery of computing services (such as servers, storage, databases, networking, software) over the internet."
+    },
+    {
+        "category": "Serverless Architecture",
+        "definition": "An approach to building and deploying applications where developers don't need to manage servers, focusing solely on writing code."
+    },
+    {
+        "category": "Internet of Things",
+        "definition": "The network of physical objects embedded with sensors, software, and other technologies for the purpose of connecting and exchanging data with other devices and systems over the internet."
+    },
+    {
+        "category": "Quantum Computing",
+        "definition": "A cutting-edge computing paradigm that uses quantum bits (qubits) to perform complex calculations, offering potential advantages over classical computers for certain problems."
+    },
+    {
+        "category": "Natural Language Understanding",
+        "definition": "The field of AI focused on enabling computers to understand, interpret, and generate human language."
+    },
+    {
+        "category": "Augmented Reality",
+        "definition": "A technology that overlays digital information, such as images, videos, or sounds, onto the real world through devices like smartphones or AR glasses."
+    },
+    {
+        "category": "Meta Learning",
+        "definition": "The study of algorithms and approaches that enable a system to learn how to learn, improving its performance on new tasks with limited data."
+    }
+]
