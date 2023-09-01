@@ -14,7 +14,6 @@ function getAuthFromHeaders(req) {
 		const password = req.headers.authorization.split(' ')[1]
 		return password
 	}
-
 	return null
 }
 
