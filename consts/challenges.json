@@ -1,0 +1,14 @@
+[
+    {
+        "category": "Internet",
+        "question": "The global network of connected computers and servers that enables communication, information sharing, and access to online resources."
+    },
+    {
+        "category": "HTML",
+        "question": "A markup language used for structuring and presenting content on the web. It defines the structure of web pages using elements and tags."
+    },
+    {
+        "category": "CSS",
+        "question": "A stylesheet language used to describe the visual presentation of HTML elements. It's used to control layout, colors, fonts, and other design aspects of web pages."
+    }
+]
