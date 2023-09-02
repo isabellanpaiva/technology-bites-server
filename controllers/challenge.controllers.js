@@ -38,7 +38,8 @@ const saveResponse = (req, res, next) => {
 		responses: [{ user: user_id }, { response: userResponse }],
 	}
 
-	Challenge.findByIdAndUpdate(challenge_id, responseData)
+	Challenge
+		.findByIdAndUpdate(challenge_id, responseData)
 		.then(() => res.sendStatus(200))
 		.catch(err => res.send(err))
 }
