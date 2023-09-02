@@ -10,8 +10,8 @@ const {
 } = require('../controllers/comment.controllers')
 
 router.post('/createComment', createComment)
-// router.get('/getAllComments/:challenge_id', verifyToken, getAllComments)
-// router.put('/editComment/:comment_id', verifyToken, isOwner, editComment)
-// router.delete('/deleteComment/:comment_id', verifyToken, isOwner, deleteComment)
+router.get('/getAllComments/:challenge_id', getAllComments)
+router.put('/editComment/:comment_id', editComment)
+router.delete('/deleteComment/:comment_id', deleteComment)
 
 module.exports = router

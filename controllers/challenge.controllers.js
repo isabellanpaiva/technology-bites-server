@@ -15,15 +15,6 @@ const createManyChallenges = (req, res, next) => {
 		.catch(err => next(err))
 }
 
-const getOneChallenge = (req, res, next) => {
-	console.log('++++++++', req.body)
-	const { challenge_id } = req.body
-
-	Challenge.findById(challenge_id)
-		.then(response => res.json(response))
-		.catch(err => next(err))
-}
-
 const getOneRandomChallenge = (req, res, next) => {
 	Challenge.aggregate([{ $sample: { size: 1 } }])
 		.project({ category: 1, question: 1 })
@@ -43,6 +34,19 @@ const saveResponse = (req, res, next) => {
 		.then(() => res.sendStatus(200))
 		.catch(err => res.send(err))
 }
+
+// in progress
+
+const getOneChallenge = (req, res, next) => {
+	console.log(req.params)
+	const { challenge_id } = req.params
+
+	Challenge.findById(challenge_id)
+		.then(response => res.json(response))
+		.catch(err => next(err))
+}
+
+// in progress
 
 module.exports = {
 	createOneChallenge,
