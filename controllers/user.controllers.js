@@ -18,7 +18,7 @@ const deleteUser = (req, res, next) => {
 
 const editUser = (req, res, next) => {
 	const { user_id } = req.params
-	const userInfo = { firstName, lastName, email, jobPosition, description } = req.body
+	const userInfo = ({ firstName, lastName, email, jobPosition, description } = req.body)
 
 	User.findByIdAndUpdate(user_id, userInfo)
 		.then(() => res.sendStatus(204))
@@ -26,17 +26,15 @@ const editUser = (req, res, next) => {
 }
 
 const favoritesHandler = (req, res, next) => {
-
 	const { action } = req.params
 	const { friend_id } = req.body
 	const { _id: user_id } = req.payload.loggedUser
 
-	let updateData = action === 'add' ? { $push: { friends: friend_id } } : { $pull: { friends: friend_id } }
+	let updateData =
+		action === 'add' ? { $push: { friends: friend_id } } : { $pull: { friends: friend_id } }
 
 	User.findByIdAndUpdate(user_id, updateData)
-		.then(() => {
-			res.sendStatus(200)
-		})
+		.then(() => res.sendStatus(200))
 		.catch(err => next(err))
 }
 

@@ -8,6 +8,7 @@ const biteSchema = new Schema(
 
 		definition: {
 			type: String,
+			minlength: [10, 'Minimum question length is 10 characters'],
 		},
 	},
 
