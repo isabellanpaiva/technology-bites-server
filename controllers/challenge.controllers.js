@@ -15,30 +15,7 @@ const createManyChallenges = (req, res, next) => {
 		.catch(err => next(err))
 }
 
-const getOneRandomChallenge = (req, res, next) => {
-	Challenge.aggregate([{ $sample: { size: 1 } }])
-		.project({ category: 1, question: 1 })
-		.then(response => res.json(response))
-		.catch(err => next(err))
-}
-
-const saveResponse = (req, res, next) => {
-	const { challenge_id, user_id, userResponse } = req.body
-
-	let responseData = {
-		responses: [{ user: user_id }, { response: userResponse }],
-	}
-
-	Challenge
-		.findByIdAndUpdate(challenge_id, responseData)
-		.then(() => res.sendStatus(200))
-		.catch(err => res.send(err))
-}
-
-// in progress
-
 const getOneChallenge = (req, res, next) => {
-	console.log(req.params)
 	const { challenge_id } = req.params
 
 	Challenge.findById(challenge_id)
@@ -46,7 +23,23 @@ const getOneChallenge = (req, res, next) => {
 		.catch(err => next(err))
 }
 
-// in progress
+const getOneRandomChallenge = (req, res, next) => {
+	Challenge.aggregate([{ $sample: { size: 1 } }])
+		.then(data => res.json(data[0]))
+		.catch(err => next(err))
+}
+
+const saveResponse = (req, res, next) => {
+	const { challenge_id, user_id, userResponse } = req.body
+
+	let responseData = {
+		$addToSet: { responses: { user: user_id, response: userResponse } },
+	}
+
+	Challenge.findByIdAndUpdate(challenge_id, responseData)
+		.then(() => res.sendStatus(200))
+		.catch(err => res.send(err))
+}
 
 module.exports = {
 	createOneChallenge,

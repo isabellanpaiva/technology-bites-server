@@ -10,7 +10,7 @@ const {
 
 router.post('/createOneChallenge', createOneChallenge)
 router.post('/createManyChallenges', createManyChallenges)
-router.get('/getOneChallenge', getOneChallenge)
+router.get('/getOneChallenge/:challenge_id', getOneChallenge)
 router.get('/getOneRandomChallenge', getOneRandomChallenge)
 router.put('/saveResponse', saveResponse)
 

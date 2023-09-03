@@ -1,9 +1,15 @@
 const User = require('../models/User.model')
+const Challenge = require('../models/Challenge.model')
 
 const getOneUser = (req, res, next) => {
 	const { user_id } = req.params
 
 	User.findById(user_id)
+		.then(response => res.json(response))
+		.catch(err => next(err))
+}
+const getAllUsers = (req, res, next) => {
+	User.find()
 		.then(response => res.json(response))
 		.catch(err => next(err))
 }
@@ -38,9 +44,19 @@ const favoritesHandler = (req, res, next) => {
 		.catch(err => next(err))
 }
 
+const getCompletedChallenges = (req, res, next) => {
+	const { user_id } = req.params
+
+	Challenge.find({ responses: { $elemMatch: { user: user_id } } })
+		.then(response => res.json(response))
+		.catch(err => next(err))
+}
+
 module.exports = {
 	getOneUser,
+	getAllUsers,
 	deleteUser,
 	editUser,
 	favoritesHandler,
+	getCompletedChallenges,
 }
