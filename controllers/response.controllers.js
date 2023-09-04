@@ -35,9 +35,17 @@ const getResponsesToChallenge = (req, res, next) => {
 		.catch(err => next(err))
 }
 
+const addResponseFav = (req, res, next) => {
+	const { response_id } = req.params
+	const { user_id } = req.body
+
+	Response.findByIdAndUpdate(response_id, { $push: { likes: user_id } })
+}
+
 module.exports = {
 	createOneResponse,
 	getUserResponses,
 	getUserResponsesToChallenge,
 	getResponsesToChallenge,
+	addResponseFav,
 }
