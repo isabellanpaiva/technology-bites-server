@@ -13,10 +13,10 @@ const commentSchema = new Schema(
 			maxlength: [140, 'Ops...maximum comment length is 140 characters'],
 		},
 
-		relatedChallenge: {
+		relatedResponse: {
 			type: Schema.Types.ObjectId,
-			ref: 'Challenge',
-		}
+			ref: 'Response',
+		},
 	},
 
 	{

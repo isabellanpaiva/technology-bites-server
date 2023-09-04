@@ -10,27 +10,6 @@ const challengeSchema = new Schema(
 			type: String,
 			minlength: [10, 'Minimum question length is 10 characters'],
 		},
-
-		responses: [
-			{
-				user: {
-					type: Schema.Types.ObjectId,
-					ref: 'User',
-				},
-				response: {
-					type: String,
-					minlength: [1, `Response can't be empty`],
-					maxlength: [250, 'Ops...maximum response length is 250 characters'],
-				},
-			},
-		],
-
-		likes: [
-			{
-				type: Schema.Types.ObjectId,
-				ref: 'User',
-			},
-		],
 	},
 
 	{

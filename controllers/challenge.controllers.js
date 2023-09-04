@@ -29,16 +29,22 @@ const getOneRandomChallenge = (req, res, next) => {
 		.catch(err => next(err))
 }
 
+const getChallengeResponses = (req, res, next) => {
+	console.log(req.params)
+	const { challenge_id } = req.params
+
+	Challenge.findById(challenge_id)
+		.then(challenge => res.json(challenge.responses))
+		.catch(err => next(err))
+}
+
 const saveResponse = (req, res, next) => {
-	const { challenge_id, user_id, userResponse } = req.body
-
-	let responseData = {
-		$addToSet: { responses: { user: user_id, response: userResponse } },
-	}
-
-	Challenge.findByIdAndUpdate(challenge_id, responseData)
-		.then(() => res.sendStatus(200))
-		.catch(err => res.send(err))
+	const { challenge_id } = req.params
+	const { response_id } = req.body
+	console.log(response_id)
+	Challenge.findByIdAndUpdate(challenge_id, { $push: { responses: response_id } })
+		.then(() => res.sendStatus(204))
+		.catch(err => next(err))
 }
 
 module.exports = {
@@ -46,5 +52,6 @@ module.exports = {
 	createManyChallenges,
 	getOneChallenge,
 	getOneRandomChallenge,
+	getChallengeResponses,
 	saveResponse,
 }
