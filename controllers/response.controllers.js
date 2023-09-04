@@ -35,11 +35,16 @@ const getResponsesToChallenge = (req, res, next) => {
 		.catch(err => next(err))
 }
 
-const addResponseFav = (req, res, next) => {
+const handleResponseFav = (req, res, next) => {
 	const { response_id } = req.params
-	const { user_id } = req.body
+	const { user_id, action } = req.body
 
-	Response.findByIdAndUpdate(response_id, { $push: { likes: user_id } })
+	let updateData =
+		action === 'add' ? { $addToSet: { likes: user_id } } : { $pull: { likes: user_id } }
+
+	Response.findByIdAndUpdate(response_id, updateData)
+		.then(() => res.sendStatus(200))
+		.catch(err => next(err))
 }
 
 module.exports = {
@@ -47,5 +52,5 @@ module.exports = {
 	getUserResponses,
 	getUserResponsesToChallenge,
 	getResponsesToChallenge,
-	addResponseFav,
+	handleResponseFav,
 }
