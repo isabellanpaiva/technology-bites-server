@@ -1,34 +1,28 @@
 const Comment = require('../models/Comment.model')
-const Challenge = require('../models/Challenge.model')
 
 const createComment = (req, res, next) => {
-	const { user_id, commentContent, challenge_id } = req.body
+	const { commentInfo } = req.body
 
-	const commentData = {
-		owner: user_id,
-		content: commentContent,
-		relatedChallenge: challenge_id,
-	}
-
-	Comment.create(commentData)
+	Comment.create(commentInfo)
 		.then(newComment => res.json(newComment))
 		.catch(err => next(err))
 }
 
 const getAllComments = (req, res, next) => {
-	const { challenge_id } = req.params
+	const { response_id } = req.params
 
-	Comment.find({ relatedChallenge: challenge_id })
+	Comment.find({ relatedChallenge: response_id })
+		.sort({ createdAt: -1 })
+		.populate('owner')
 		.then(response => res.json(response))
 		.catch(err => next(err))
 }
 
 const editComment = (req, res, next) => {
 	const { comment_id } = req.params
+	const { commentContent } = req.body
 
-	const { content } = req.body
-
-	Comment.findByIdAndUpdate(comment_id, { content })
+	Comment.findByIdAndUpdate(comment_id, { content: commentContent })
 		.then(() => res.sendStatus(204))
 		.catch(err => next(err))
 }

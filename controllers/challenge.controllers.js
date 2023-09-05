@@ -29,6 +29,25 @@ const getOneRandomChallenge = (req, res, next) => {
 		.catch(err => next(err))
 }
 
+const getDailyChallenge = (req, res, next) => {
+	let challengesCount
+	Challenge.count()
+		.then(response => {
+			challengesCount = response
+			const currentTimestamp = Math.floor(Date.now() / 1000)
+			let unixTimeInDays = Math.floor(currentTimestamp / (24 * 60 * 60))
+			const randomSeed = 726236523627
+			return Challenge.findOne().skip((unixTimeInDays * randomSeed) % challengesCount)
+		})
+		.then(reponse => {
+			res.json(reponse)
+		})
+		.catch(err => {
+			console.log(err)
+			next(err)
+		})
+}
+
 const getChallengeResponses = (req, res, next) => {
 	console.log(req.params)
 	const { challenge_id } = req.params
@@ -53,5 +72,6 @@ module.exports = {
 	getOneChallenge,
 	getOneRandomChallenge,
 	getChallengeResponses,
+	getDailyChallenge,
 	saveResponse,
 }

@@ -31,15 +31,15 @@ const editUser = (req, res, next) => {
 		.catch(err => next(err))
 }
 
-const favoritesHandler = (req, res, next) => {
+const updateFollowers = (req, res, next) => {
 	const { action } = req.params
-	const { friend_id } = req.body
-	const { _id: user_id } = req.payload.loggedUser
+	const { follower_id } = req.body
+	const { _id: user_id } = req.payload
 
 	let updateData =
-		action === 'add' ? { $push: { friends: friend_id } } : { $pull: { friends: friend_id } }
+		action === 'add' ? { $addToSet: { followers: user_id } } : { $pull: { followers: user_id } }
 
-	User.findByIdAndUpdate(user_id, updateData)
+	User.findByIdAndUpdate(follower_id, updateData)
 		.then(() => res.sendStatus(200))
 		.catch(err => next(err))
 }
@@ -57,6 +57,6 @@ module.exports = {
 	getAllUsers,
 	deleteUser,
 	editUser,
-	favoritesHandler,
+	updateFollowers,
 	getCompletedChallenges,
 }

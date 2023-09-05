@@ -42,7 +42,7 @@ const userSchema = new Schema(
 			minlength: [20, 'Description must be 20 characters minimum'],
 		},
 
-		friends: [
+		followers: [
 			{
 				type: Schema.Types.ObjectId,
 				ref: 'User',

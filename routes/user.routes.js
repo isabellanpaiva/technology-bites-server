@@ -8,7 +8,7 @@ const {
 	getAllUsers,
 	deleteUser,
 	editUser,
-	favoritesHandler,
+	updateFollowers,
 	getCompletedChallenges,
 } = require('../controllers/user.controllers')
 
@@ -16,7 +16,7 @@ router.get('/getOneUser/:user_id', verifyToken, getOneUser)
 router.get('/getAllUsers', verifyToken, getAllUsers)
 router.delete('/deleteUser/:user_id', verifyToken, isOwner, deleteUser)
 router.put('/editUser/:user_id', verifyToken, isOwner, editUser)
-router.post('/favorite/:action', verifyToken, favoritesHandler)
+router.post('/updateFollowers/:action', verifyToken, updateFollowers)
 router.get('/getCompletedChallenges/:user_id', getCompletedChallenges)
 
 module.exports = router
