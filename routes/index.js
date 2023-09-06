@@ -7,5 +7,6 @@ router.use('/upload', require('./upload.routes'))
 router.use('/bite', require('./bite.routes'))
 router.use('/comment', require('./comment.routes'))
 router.use('/response', require('./response.routes'))
+router.use('/dojo', require('./dojo.routes'))
 
 module.exports = router
