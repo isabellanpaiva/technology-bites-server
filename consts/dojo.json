@@ -1,0 +1,2502 @@
+[
+    {
+        "category": "Internet",
+        "statement": "The Internet was created in 1970.",
+        "validation": false
+    },
+    {
+        "category": "Internet",
+        "statement": "The World Wide Web (WWW) was invented by Tim Berners-Lee.",
+        "validation": true
+    },
+    {
+        "category": "Internet",
+        "statement": "HTTP stands for HyperText Transfer Protocol.",
+        "validation": true
+    },
+    {
+        "category": "Internet",
+        "statement": "The first email was sent in 1969.",
+        "validation": true
+    },
+    {
+        "category": "Internet",
+        "statement": "Google was founded in 1996.",
+        "validation": false
+    },
+    {
+        "category": "Internet",
+        "statement": "The concept of 'net neutrality' refers to equal treatment of all online content by internet service providers.",
+        "validation": true
+    },
+    {
+        "category": "Internet",
+        "statement": "The most widely used web browser is Mozilla Firefox.",
+        "validation": false
+    },
+    {
+        "category": "Internet",
+        "statement": "The term 'Wi-Fi' stands for Wireless Fidelity.",
+        "validation": true
+    },
+    {
+        "category": "Internet",
+        "statement": "The first website ever created is still online today.",
+        "validation": true
+    },
+    {
+        "category": "Internet",
+        "statement": "The 'Dark Web' is a part of the Internet that is intentionally hidden and inaccessible through standard web browsers.",
+        "validation": true
+    },
+    {
+        "category": "HTML",
+        "statement": "HTML stands for HyperText Markup Language.",
+        "validation": true
+    },
+    {
+        "category": "HTML",
+        "statement": "HTML is a programming language.",
+        "validation": false
+    },
+    {
+        "category": "HTML",
+        "statement": "The <p> tag is used to define a paragraph in HTML.",
+        "validation": true
+    },
+    {
+        "category": "HTML",
+        "statement": "HTML is primarily used for styling web pages.",
+        "validation": false
+    },
+    {
+        "category": "HTML",
+        "statement": "The <img> tag is used to display images in HTML.",
+        "validation": true
+    },
+    {
+        "category": "HTML",
+        "statement": "HTML files can be executed on a computer.",
+        "validation": false
+    },
+    {
+        "category": "HTML",
+        "statement": "HTML5 is the latest version of HTML.",
+        "validation": true
+    },
+    {
+        "category": "HTML",
+        "statement": "HTML documents must always start with a <!DOCTYPE> declaration.",
+        "validation": true
+    },
+    {
+        "category": "HTML",
+        "statement": "The <a> tag is used to create a heading in HTML.",
+        "validation": false
+    },
+    {
+        "category": "HTML",
+        "statement": "HTML can be used to create interactive web applications.",
+        "validation": true
+    },
+    {
+        "category": "CSS",
+        "statement": "CSS stands for Cascading Style Sheets.",
+        "validation": true
+    },
+    {
+        "category": "CSS",
+        "statement": "CSS is a programming language.",
+        "validation": false
+    },
+    {
+        "category": "CSS",
+        "statement": "CSS is used for defining the structure and content of a web page.",
+        "validation": false
+    },
+    {
+        "category": "CSS",
+        "statement": "The color property in CSS can be used to change the background color of an element.",
+        "validation": true
+    },
+    {
+        "category": "CSS",
+        "statement": "External CSS files are linked to HTML documents using the <style> tag.",
+        "validation": false
+    },
+    {
+        "category": "CSS",
+        "statement": "CSS can be applied inline within HTML elements using the style attribute.",
+        "validation": true
+    },
+    {
+        "category": "CSS",
+        "statement": "CSS Flexbox is a layout model used for complex grid structures.",
+        "validation": false
+    },
+    {
+        "category": "CSS",
+        "statement": "CSS Grid is used for creating two-dimensional grid layouts.",
+        "validation": true
+    },
+    {
+        "category": "CSS",
+        "statement": "The 'margin' property in CSS can be used to control the spacing outside an element.",
+        "validation": true
+    },
+    {
+        "category": "CSS",
+        "statement": "CSS is mainly used for making web pages more colorful.",
+        "validation": false
+    },
+    {
+        "category": "Server",
+        "statement": "A server is a computer or software that provides services or resources to other computers, known as clients.",
+        "validation": true
+    },
+    {
+        "category": "Client",
+        "statement": "A client in computer networking refers to a device or application that requests services or resources from a server.",
+        "validation": true
+    },
+    {
+        "category": "Client",
+        "statement": "In web development, the term 'client-side' refers to the server's role in handling user requests and generating dynamic web pages.",
+        "validation": false
+    },
+    {
+        "category": "Client",
+        "statement": "A web browser is an example of a client application that communicates with web servers to retrieve and display web pages.",
+        "validation": true
+    },
+    {
+        "category": "Client",
+        "statement": "A client can also be a server if it provides services or resources to other devices or applications in a network.",
+        "validation": true
+    },
+    {
+        "category": "Client",
+        "statement": "In the context of email, the client is responsible for sending emails, while the server receives and stores them.",
+        "validation": false
+    },
+    {
+        "category": "Client",
+        "statement": "Client-server architecture is commonly used in distributed systems, where multiple clients communicate with a central server.",
+        "validation": true
+    },
+    {
+        "category": "Client",
+        "statement": "A client can access the internet without the need for any networking protocols or communication standards.",
+        "validation": false
+    },
+    {
+        "category": "Client",
+        "statement": "A mobile app that retrieves weather information from an online server is an example of a client application.",
+        "validation": true
+    },
+    {
+        "category": "Client",
+        "statement": "In the context of databases, the client is responsible for storing and managing data, while the server performs queries and data retrieval.",
+        "validation": false
+    },
+    {
+        "category": "Client",
+        "statement": "Client-side scripting languages like JavaScript are executed on the server to generate dynamic content for web pages.",
+        "validation": false
+    },
+    {
+        "category": "Server",
+        "statement": "Servers are primarily used for web browsing and entertainment purposes.",
+        "validation": false
+    },
+    {
+        "category": "Server",
+        "statement": "HTTP is a protocol used for transferring web pages from a server to a client's web browser.",
+        "validation": true
+    },
+    {
+        "category": "Server",
+        "statement": "FTP (File Transfer Protocol) is used for sending emails.",
+        "validation": false
+    },
+    {
+        "category": "Server",
+        "statement": "DNS (Domain Name System) is responsible for translating domain names into IP addresses.",
+        "validation": true
+    },
+    {
+        "category": "Server",
+        "statement": "A proxy server is primarily used for hosting websites.",
+        "validation": false
+    },
+    {
+        "category": "Server",
+        "statement": "A dedicated server is a type of server that is used exclusively by one organization or individual.",
+        "validation": true
+    },
+    {
+        "category": "Server",
+        "statement": "Server downtime refers to the time when a server is running smoothly and without any issues.",
+        "validation": false
+    },
+    {
+        "category": "Server",
+        "statement": "Load balancing is a technique used to distribute network traffic evenly across multiple servers.",
+        "validation": true
+    },
+    {
+        "category": "Server",
+        "statement": "SMTP (Simple Mail Transfer Protocol) is used for web hosting.",
+        "validation": false
+    },
+    {
+        "category": "API",
+        "statement": "API stands for Application Programming Interface.",
+        "validation": true
+    },
+    {
+        "category": "API",
+        "statement": "APIs are only used in web development and not in other software applications.",
+        "validation": false
+    },
+    {
+        "category": "API",
+        "statement": "REST (Representational State Transfer) is a common architectural style for designing networked applications and is often used in APIs.",
+        "validation": true
+    },
+    {
+        "category": "API",
+        "statement": "APIs are only used for accessing data from external sources and cannot be used to perform actions.",
+        "validation": false
+    },
+    {
+        "category": "API",
+        "statement": "JSON (JavaScript Object Notation) is a common format used for data exchange in APIs.",
+        "validation": true
+    },
+    {
+        "category": "API",
+        "statement": "GraphQL is a type of web server, not an API technology.",
+        "validation": false
+    },
+    {
+        "category": "API",
+        "statement": "API rate limiting is a technique used to control the number of API requests a client can make in a given time period.",
+        "validation": true
+    },
+    {
+        "category": "API",
+        "statement": "APIs are exclusively used for server-to-client communication and cannot be used for client-to-server communication.",
+        "validation": false
+    },
+    {
+        "category": "API",
+        "statement": "OAuth is an authentication protocol commonly used in API authorization.",
+        "validation": true
+    },
+    {
+        "category": "API",
+        "statement": "APIs are only relevant in mobile app development and not in web development.",
+        "validation": false
+    },
+    {
+        "category": "Database",
+        "statement": "A database is a structured collection of data.",
+        "validation": true
+    },
+    {
+        "category": "Database",
+        "statement": "SQL (Structured Query Language) is a programming language used to interact with databases.",
+        "validation": true
+    },
+    {
+        "category": "Database",
+        "statement": "NoSQL databases are strictly limited to using a single data model.",
+        "validation": false
+    },
+    {
+        "category": "Database",
+        "statement": "A primary key in a database is used to ensure that each row in a table is unique.",
+        "validation": true
+    },
+    {
+        "category": "Database",
+        "statement": "Normalization is the process of intentionally adding redundancy to a database for performance improvement.",
+        "validation": false
+    },
+    {
+        "category": "Database",
+        "statement": "MongoDB is a popular example of a relational database management system (RDBMS).",
+        "validation": false
+    },
+    {
+        "category": "Database",
+        "statement": "ACID (Atomicity, Consistency, Isolation, Durability) properties are important for maintaining data integrity in a database.",
+        "validation": true
+    },
+    {
+        "category": "Database",
+        "statement": "Indexes in a database are used to slow down data retrieval operations.",
+        "validation": false
+    },
+    {
+        "category": "Database",
+        "statement": "A foreign key in a database is used to establish a link between two tables.",
+        "validation": true
+    },
+    {
+        "category": "Database",
+        "statement": "Databases are typically used for data storage and retrieval but cannot perform calculations or execute code.",
+        "validation": false
+    },
+    {
+        "category": "Algorithm",
+        "statement": "An algorithm is a step-by-step procedure for solving a problem or performing a task.",
+        "validation": true
+    },
+    {
+        "category": "Algorithm",
+        "statement": "Algorithms are only relevant in the field of computer science and have no applications in other areas.",
+        "validation": false
+    },
+    {
+        "category": "Algorithm",
+        "statement": "Bubble sort is an example of a sorting algorithm that has a worst-case time complexity of O(n log n).",
+        "validation": false
+    },
+    {
+        "category": "Algorithm",
+        "statement": "Binary search is a divide-and-conquer algorithm used to search for a specific element in a sorted array.",
+        "validation": true
+    },
+    {
+        "category": "Algorithm",
+        "statement": "Big O notation is used to analyze and describe the efficiency or complexity of an algorithm.",
+        "validation": true
+    },
+    {
+        "category": "Algorithm",
+        "statement": "An algorithm can only be implemented in a single programming language and is not language-independent.",
+        "validation": false
+    },
+    {
+        "category": "Algorithm",
+        "statement": "Dynamic programming is a technique used to optimize recursive algorithms by storing and reusing computed results.",
+        "validation": true
+    },
+    {
+        "category": "Algorithm",
+        "statement": "A greedy algorithm always guarantees an optimal solution for every problem it is applied to.",
+        "validation": false
+    },
+    {
+        "category": "Algorithm",
+        "statement": "Hashing is a technique used to transform data into a fixed-size string of characters.",
+        "validation": true
+    },
+    {
+        "category": "Algorithm",
+        "statement": "An algorithm is essentially a computer program.",
+        "validation": false
+    },
+    {
+        "category": "Variables",
+        "statement": "A variable is a container that stores data in a program.",
+        "validation": true
+    },
+    {
+        "category": "Variables",
+        "statement": "Variables in programming can never change their value once assigned.",
+        "validation": false
+    },
+    {
+        "category": "Variables",
+        "statement": "In JavaScript, variables declared with the 'let' keyword are block-scoped.",
+        "validation": true
+    },
+    {
+        "category": "Variables",
+        "statement": "Variables in Python must be explicitly declared with a data type, such as 'int' or 'str'.",
+        "validation": false
+    },
+    {
+        "category": "Variables",
+        "statement": "Scope refers to the visibility or accessibility of a variable within a program.",
+        "validation": true
+    },
+    {
+        "category": "Variables",
+        "statement": "In C++, you can declare a variable without specifying its data type.",
+        "validation": false
+    },
+    {
+        "category": "Variables",
+        "statement": "A constant variable is a variable whose value can never change once it is assigned.",
+        "validation": true
+    },
+    {
+        "category": "Variables",
+        "statement": "In most programming languages, variable names are case-insensitive.",
+        "validation": false
+    },
+    {
+        "category": "Variables",
+        "statement": "Global variables are accessible from any part of a program and are usually declared within a specific function.",
+        "validation": false
+    },
+    {
+        "category": "Variables",
+        "statement": "Variable naming conventions in programming typically discourage the use of meaningful and descriptive names.",
+        "validation": false
+    },
+    {
+        "category": "Functions",
+        "statement": "A function is a block of code that can be reused to perform a specific task.",
+        "validation": true
+    },
+    {
+        "category": "Functions",
+        "statement": "In programming, a function can only be called once and cannot be reused.",
+        "validation": false
+    },
+    {
+        "category": "Functions",
+        "statement": "Parameters are values that are passed into a function when it is called, and they help customize the behavior of the function.",
+        "validation": true
+    },
+    {
+        "category": "Functions",
+        "statement": "A function in JavaScript can be declared using the 'def' keyword.",
+        "validation": false
+    },
+    {
+        "category": "Functions",
+        "statement": "Recursion is a technique in which a function calls itself, and it can be used to solve problems that can be broken down into smaller subproblems.",
+        "validation": true
+    },
+    {
+        "category": "Functions",
+        "statement": "A function can have multiple parameters with the same name, as long as they are of different data types.",
+        "validation": false
+    },
+    {
+        "category": "Functions",
+        "statement": "In Python, functions must always return a value.",
+        "validation": false
+    },
+    {
+        "category": "Functions",
+        "statement": "Function names in most programming languages are case-sensitive.",
+        "validation": true
+    },
+    {
+        "category": "Functions",
+        "statement": "A function can be defined inside another function, creating a nested or inner function.",
+        "validation": true
+    },
+    {
+        "category": "Functions",
+        "statement": "Function overloading is a feature that allows a function to have multiple definitions with different numbers or types of parameters.",
+        "validation": true
+    },
+    {
+        "category": "Conditionals",
+        "statement": "Conditional statements in programming allow you to execute different code blocks based on whether a condition is true or false.",
+        "validation": true
+    },
+    {
+        "category": "Conditionals",
+        "statement": "In most programming languages, 'if-else' statements are used for executing code only if a condition is true and do nothing otherwise.",
+        "validation": true
+    },
+    {
+        "category": "Conditionals",
+        "statement": "Switch statements can be used to simplify and optimize code with multiple 'if-else' conditions.",
+        "validation": true
+    },
+    {
+        "category": "Conditionals",
+        "statement": "A 'while' loop is an example of a conditional statement used for iterating through a block of code until a condition becomes false.",
+        "validation": true
+    },
+    {
+        "category": "Conditionals",
+        "statement": "In programming, 'else-if' statements are used to handle multiple conditions in a mutually exclusive manner.",
+        "validation": true
+    },
+    {
+        "category": "Conditionals",
+        "statement": "Conditional statements can only compare numerical values and not other data types like strings.",
+        "validation": false
+    },
+    {
+        "category": "Conditionals",
+        "statement": "A 'for' loop is an example of a conditional statement used for executing code indefinitely.",
+        "validation": false
+    },
+    {
+        "category": "Conditionals",
+        "statement": "Ternary operators are used for creating complex conditional statements, and they are not recommended for simple cases.",
+        "validation": false
+    },
+    {
+        "category": "Conditionals",
+        "statement": "In 'if-else' statements, only one of the code blocks (either 'if' or 'else') will always execute.",
+        "validation": true
+    },
+    {
+        "category": "Conditionals",
+        "statement": "Conditional statements in programming can only evaluate true or false conditions and cannot handle more complex comparisons.",
+        "validation": false
+    },
+    {
+        "category": "Loops",
+        "statement": "Loops in programming are used to execute a block of code repeatedly based on a condition.",
+        "validation": true
+    },
+    {
+        "category": "Loops",
+        "statement": "A 'for' loop is a type of loop that is best suited for situations where you know the exact number of iterations.",
+        "validation": true
+    },
+    {
+        "category": "Loops",
+        "statement": "In most programming languages, 'while' loops require an initialization step before they can be used.",
+        "validation": false
+    },
+    {
+        "category": "Loops",
+        "statement": "A 'do-while' loop always executes its code block at least once before checking the loop condition.",
+        "validation": true
+    },
+    {
+        "category": "Loops",
+        "statement": "In a 'for' loop, the loop variable must be declared before the loop starts.",
+        "validation": true
+    },
+    {
+        "category": "Loops",
+        "statement": "Loops can only be used to iterate through arrays and cannot be used for other data structures.",
+        "validation": false
+    },
+    {
+        "category": "Loops",
+        "statement": "The 'break' statement is used to exit a loop prematurely, without completing all iterations.",
+        "validation": true
+    },
+    {
+        "category": "Loops",
+        "statement": "In a 'while' loop, the loop condition is checked before each iteration.",
+        "validation": true
+    },
+    {
+        "category": "Loops",
+        "statement": "A 'for' loop can be used to iterate through the elements of an array.",
+        "validation": true
+    },
+    {
+        "category": "Loops",
+        "statement": "Nested loops are loops that are completely independent and do not affect each other's execution.",
+        "validation": false
+    },
+    {
+        "category": "Data Types",
+        "statement": "Data types in programming define the type of data that a variable can hold.",
+        "validation": true
+    },
+    {
+        "category": "Data Types",
+        "statement": "In most programming languages, the 'int' data type is used to store floating-point numbers.",
+        "validation": false
+    },
+    {
+        "category": "Data Types",
+        "statement": "A string is a data type used to store text in programming.",
+        "validation": true
+    },
+    {
+        "category": "Data Types",
+        "statement": "Booleans can only have two possible values: true and false.",
+        "validation": true
+    },
+    {
+        "category": "Data Types",
+        "statement": "Arrays are not a data type but a way to store multiple values of the same data type in a single variable.",
+        "validation": false
+    },
+    {
+        "category": "Data Types",
+        "statement": "A variable can change its data type during the execution of a program.",
+        "validation": false
+    },
+    {
+        "category": "Data Types",
+        "statement": "In Python, you must explicitly declare the data type of a variable when defining it.",
+        "validation": false
+    },
+    {
+        "category": "Data Types",
+        "statement": "The 'null' or 'nil' value is commonly used to represent the absence of a value or a null reference in programming.",
+        "validation": true
+    },
+    {
+        "category": "Data Types",
+        "statement": "The 'char' data type is used to store a single character in most programming languages.",
+        "validation": true
+    },
+    {
+        "category": "Data Types",
+        "statement": "Floating-point data types can represent whole numbers with no decimal places.",
+        "validation": false
+    },
+    {
+        "category": "Control Structures",
+        "statement": "Control structures in programming are used to control the flow of execution within a program.",
+        "validation": true
+    },
+    {
+        "category": "Control Structures",
+        "statement": "A 'switch' statement is a type of loop used to repeat a block of code until a certain condition is met.",
+        "validation": false
+    },
+    {
+        "category": "Control Structures",
+        "statement": "A 'break' statement is used to exit a loop prematurely without completing all iterations.",
+        "validation": true
+    },
+    {
+        "category": "Control Structures",
+        "statement": "In most programming languages, 'if-else' statements are used for conditional execution of code.",
+        "validation": true
+    },
+    {
+        "category": "Control Structures",
+        "statement": "A 'try-catch' block is used to handle exceptions or errors in a program.",
+        "validation": true
+    },
+    {
+        "category": "Control Structures",
+        "statement": "In a 'for' loop, the loop variable is not incremented or updated after each iteration.",
+        "validation": false
+    },
+    {
+        "category": "Control Structures",
+        "statement": "Recursion is a control structure that involves a function calling itself to solve a problem.",
+        "validation": true
+    },
+    {
+        "category": "Control Structures",
+        "statement": "In programming, 'goto' statements are commonly used to improve code readability and maintainability.",
+        "validation": false
+    },
+    {
+        "category": "Control Structures",
+        "statement": "A 'continue' statement is used to skip the current iteration of a loop and proceed to the next iteration.",
+        "validation": true
+    },
+    {
+        "category": "Control Structures",
+        "statement": "Control structures in programming do not impact the order in which code is executed.",
+        "validation": false
+    },
+    {
+        "category": "Version Control",
+        "statement": "Version control is a system that tracks changes to files and directories over time.",
+        "validation": true
+    },
+    {
+        "category": "Version Control",
+        "statement": "Git is an example of a cloud storage service used for file backup but not for version control.",
+        "validation": false
+    },
+    {
+        "category": "Version Control",
+        "statement": "Version control systems help software developers collaborate on projects by managing changes to source code.",
+        "validation": true
+    },
+    {
+        "category": "Version Control",
+        "statement": "In version control, a 'commit' is the process of reverting all changes in a project to its initial state.",
+        "validation": false
+    },
+    {
+        "category": "Version Control",
+        "statement": "Branching in version control allows developers to work on isolated features or bug fixes without affecting the main codebase.",
+        "validation": true
+    },
+    {
+        "category": "Version Control",
+        "statement": "GitHub is a version control system, not a web-based platform for hosting and collaborating on Git repositories.",
+        "validation": false
+    },
+    {
+        "category": "Version Control",
+        "statement": "Merge conflicts occur when two or more branches in a version control system have conflicting changes that cannot be automatically merged.",
+        "validation": true
+    },
+    {
+        "category": "Version Control",
+        "statement": "In version control, 'push' is the process of retrieving changes from a remote repository to a local repository.",
+        "validation": false
+    },
+    {
+        "category": "Version Control",
+        "statement": "Distributed version control systems like Git allow multiple developers to work offline without needing a centralized server.",
+        "validation": true
+    },
+    {
+        "category": "Version Control",
+        "statement": "Version control is only used in software development and has no relevance in other fields.",
+        "validation": false
+    },
+    {
+        "category": "Terminal",
+        "statement": "A terminal, also known as a command-line interface (CLI), is a text-based way to interact with a computer's operating system.",
+        "validation": true
+    },
+    {
+        "category": "Terminal",
+        "statement": "In the terminal, commands are usually executed by typing the command and then pressing the 'Enter' key.",
+        "validation": true
+    },
+    {
+        "category": "Terminal",
+        "statement": "In a terminal, file and folder names are not case-sensitive, meaning 'file.txt' and 'File.txt' are treated as the same file.",
+        "validation": false
+    },
+    {
+        "category": "Terminal",
+        "statement": "The 'pwd' command in a terminal is used to print the working directory, which shows the current location in the file system.",
+        "validation": true
+    },
+    {
+        "category": "Terminal",
+        "statement": "The 'cd' command is used in a terminal to create a new directory.",
+        "validation": false
+    },
+    {
+        "category": "Terminal",
+        "statement": "In the terminal, you can use the 'ls' command to list the contents of a directory.",
+        "validation": true
+    },
+    {
+        "category": "Terminal",
+        "statement": "The 'rm' command in a terminal is used to rename files and directories.",
+        "validation": false
+    },
+    {
+        "category": "Terminal",
+        "statement": "Terminal commands are universal and work the same way on all operating systems.",
+        "validation": false
+    },
+    {
+        "category": "Terminal",
+        "statement": "The 'mkdir' command is used to create a new directory in a terminal.",
+        "validation": true
+    },
+    {
+        "category": "Terminal",
+        "statement": "In a terminal, the 'clear' command is used to close the terminal window.",
+        "validation": false
+    },
+    {
+        "category": "Object-Oriented Programming (OOP)",
+        "statement": "Object-Oriented Programming (OOP) is a programming paradigm that uses objects to structure code and data.",
+        "validation": true
+    },
+    {
+        "category": "Object-Oriented Programming (OOP)",
+        "statement": "In OOP, an object is an instance of a class and can have its own attributes (data) and methods (functions).",
+        "validation": true
+    },
+    {
+        "category": "Object-Oriented Programming (OOP)",
+        "statement": "Encapsulation is a principle of OOP that refers to the bundling of data and methods that operate on that data into a single unit called an object.",
+        "validation": true
+    },
+    {
+        "category": "Object-Oriented Programming (OOP)",
+        "statement": "Inheritance is a concept in OOP that allows a new class to inherit properties and methods from an existing class.",
+        "validation": true
+    },
+    {
+        "category": "Object-Oriented Programming (OOP)",
+        "statement": "Polymorphism is a principle of OOP that allows objects of different classes to be treated as objects of a common superclass.",
+        "validation": true
+    },
+    {
+        "category": "Object-Oriented Programming (OOP)",
+        "statement": "In OOP, a constructor is a method used to destroy an object when it is no longer needed.",
+        "validation": false
+    },
+    {
+        "category": "Object-Oriented Programming (OOP)",
+        "statement": "Abstract classes in OOP cannot be instantiated, and they are meant to be subclassed by concrete classes.",
+        "validation": true
+    },
+    {
+        "category": "Object-Oriented Programming (OOP)",
+        "statement": "In OOP, method overloading allows a class to have multiple methods with the same name but different parameter lists.",
+        "validation": true
+    },
+    {
+        "category": "Object-Oriented Programming (OOP)",
+        "statement": "Interfaces in OOP are used to define the implementation of a class and cannot be implemented by multiple classes.",
+        "validation": false
+    },
+    {
+        "category": "Object-Oriented Programming (OOP)",
+        "statement": "In OOP, encapsulation allows access to an object's internal data and methods from outside the object.",
+        "validation": false
+    },
+    {
+        "category": "Framework",
+        "statement": "A framework is a pre-built set of libraries, tools, and conventions that provide a foundation for building software applications.",
+        "validation": true
+    },
+    {
+        "category": "Framework",
+        "statement": "Frameworks are limited to a specific programming language and cannot be used with other languages.",
+        "validation": false
+    },
+    {
+        "category": "Framework",
+        "statement": "In web development, frameworks like React and Angular are commonly used for building user interfaces.",
+        "validation": true
+    },
+    {
+        "category": "Framework",
+        "statement": "Frameworks are typically used for writing low-level system code, such as operating systems and device drivers.",
+        "validation": false
+    },
+    {
+        "category": "Framework",
+        "statement": "A framework may include predefined classes and functions that developers can use and extend to build their applications.",
+        "validation": true
+    },
+    {
+        "category": "Framework",
+        "statement": "Frameworks always enforce a strict set of rules and cannot be customized or extended by developers.",
+        "validation": false
+    },
+    {
+        "category": "Framework",
+        "statement": "Ruby on Rails is an example of a framework commonly used for building web applications.",
+        "validation": true
+    },
+    {
+        "category": "Framework",
+        "statement": "Using a framework can speed up the development process and provide best practices for building applications.",
+        "validation": true
+    },
+    {
+        "category": "Framework",
+        "statement": "Frameworks are only relevant in desktop application development and have no significance in web development.",
+        "validation": false
+    },
+    {
+        "category": "Framework",
+        "statement": "Developers are required to reinvent the wheel and build everything from scratch when using a framework.",
+        "validation": false
+    },
+    {
+        "category": "HTTP",
+        "statement": "HTTP stands for Hypertext Transfer Protocol and is the foundation of data communication on the World Wide Web.",
+        "validation": true
+    },
+    {
+        "category": "HTTP",
+        "statement": "HTTPS is a less secure version of HTTP used for transmitting sensitive data like credit card information.",
+        "validation": false
+    },
+    {
+        "category": "HTTP",
+        "statement": "HTTP operates over TCP (Transmission Control Protocol) and typically uses port 80 for communication.",
+        "validation": true
+    },
+    {
+        "category": "HTTP",
+        "statement": "HTTP is a stateful protocol, which means it does not maintain a session between the client and server.",
+        "validation": false
+    },
+    {
+        "category": "HTTP",
+        "statement": "HTTP requests can include various methods, such as GET, POST, PUT, DELETE, etc., to specify the desired action.",
+        "validation": true
+    },
+    {
+        "category": "HTTP",
+        "statement": "HTTP status code 404 indicates that the requested resource was found and successfully retrieved.",
+        "validation": false
+    },
+    {
+        "category": "HTTP",
+        "statement": "HTTP headers are used to convey additional information about the request or response, such as content type and length.",
+        "validation": true
+    },
+    {
+        "category": "HTTP",
+        "statement": "HTTP is a binary protocol, making it more efficient for data transfer compared to text-based protocols.",
+        "validation": false
+    },
+    {
+        "category": "HTTP",
+        "statement": "HTTP/2 is the latest version of HTTP and offers improvements in performance and efficiency over HTTP/1.1.",
+        "validation": true
+    },
+    {
+        "category": "HTTP",
+        "statement": "HTTP methods like PUT and DELETE are always idempotent, meaning they have the same effect regardless of how many times they are executed.",
+        "validation": true
+    },
+    {
+        "category": "Code Review",
+        "statement": "Code review is a process where one or more developers examine another developer's code to find defects and provide feedback.",
+        "validation": true
+    },
+    {
+        "category": "Code Review",
+        "statement": "In code reviews, it's essential to focus solely on finding and reporting syntax errors and typos in the code.",
+        "validation": false
+    },
+    {
+        "category": "Code Review",
+        "statement": "Code reviews are typically done after the code has been deployed to production to ensure it's working correctly.",
+        "validation": false
+    },
+    {
+        "category": "Code Review",
+        "statement": "One of the main goals of code review is to improve the overall quality of the code and maintainability of the software.",
+        "validation": true
+    },
+    {
+        "category": "Code Review",
+        "statement": "Code reviews can only be conducted by senior developers and are not suitable for junior or less experienced developers.",
+        "validation": false
+    },
+    {
+        "category": "Code Review",
+        "statement": "Automated tools are not used in code reviews and have no role in the process.",
+        "validation": false
+    },
+    {
+        "category": "Code Review",
+        "statement": "Code review comments should be clear, constructive, and focus on improving the code rather than criticizing the developer.",
+        "validation": true
+    },
+    {
+        "category": "Code Review",
+        "statement": "Code reviews can help identify security vulnerabilities and potential security risks in the code.",
+        "validation": true
+    },
+    {
+        "category": "Code Review",
+        "statement": "Code reviews should be rushed and completed as quickly as possible to avoid delaying the development process.",
+        "validation": false
+    },
+    {
+        "category": "Code Review",
+        "statement": "Pair programming is a form of code review where two developers work together to write code simultaneously, ensuring higher quality and fewer defects.",
+        "validation": true
+    },
+    {
+        "category": "IP",
+        "statement": "IP stands for Internet Protocol, which is a set of rules that govern how data packets should be formatted, addressed, and routed in a network.",
+        "validation": true
+    },
+    {
+        "category": "IP",
+        "statement": "An IP address uniquely identifies a device on a network and is represented as a combination of alphabetic characters.",
+        "validation": false
+    },
+    {
+        "category": "IP",
+        "statement": "IPv4 is the most recent version of the Internet Protocol and is currently the only one in use.",
+        "validation": false
+    },
+    {
+        "category": "IP",
+        "statement": "Private IP addresses, such as those starting with 192.168.x.x or 10.x.x.x, are routable on the public internet and can be accessed from anywhere.",
+        "validation": false
+    },
+    {
+        "category": "IP",
+        "statement": "IP addresses are divided into two main versions: IPv4 and IPv6, with IPv6 being designed to address the shortage of available IPv4 addresses.",
+        "validation": true
+    },
+    {
+        "category": "IP",
+        "statement": "An IP address consists of four sets of eight binary digits, making a total of 32 bits for IPv4 addresses.",
+        "validation": true
+    },
+    {
+        "category": "IP",
+        "statement": "The term 'subnet mask' is used to identify a specific computer on a network and is equivalent to an IP address.",
+        "validation": false
+    },
+    {
+        "category": "IP",
+        "statement": "NAT (Network Address Translation) is a technique used to map multiple private IP addresses to a single public IP address, allowing multiple devices to share the same public IP.",
+        "validation": true
+    },
+    {
+        "category": "IP",
+        "statement": "DNS (Domain Name System) is responsible for converting human-readable domain names into IP addresses, making it easier for users to access websites.",
+        "validation": true
+    },
+    {
+        "category": "IP",
+        "statement": "IP addresses are static and never change, even when a device connects to different networks or locations.",
+        "validation": false
+    },
+    {
+        "category": "Deploy",
+        "statement": "Deployment in software development refers to the process of making a software application available for use by end-users or customers.",
+        "validation": true
+    },
+    {
+        "category": "Deploy",
+        "statement": "Continuous Integration (CI) is a practice where code changes are automatically deployed to production without any human intervention.",
+        "validation": false
+    },
+    {
+        "category": "Deploy",
+        "statement": "In the context of web applications, deploying means copying source code files to a server and making them accessible via the internet.",
+        "validation": true
+    },
+    {
+        "category": "Deploy",
+        "statement": "A rollback is a deployment strategy where a new version of an application is deployed alongside the old one, and traffic is gradually switched to the new version.",
+        "validation": false
+    },
+    {
+        "category": "Deploy",
+        "statement": "In containerization, applications and their dependencies are packaged together in isolated environments called containers, making deployment more consistent and efficient.",
+        "validation": true
+    },
+    {
+        "category": "Deploy",
+        "statement": "A 'blue-green deployment' is a deployment strategy where two separate environments, 'blue' and 'green,' are maintained, and traffic is switched between them during deployment.",
+        "validation": true
+    },
+    {
+        "category": "Deploy",
+        "statement": "Deployment scripts or automation tools are not commonly used in the software development industry, as manual deployments are more reliable.",
+        "validation": false
+    },
+    {
+        "category": "Deploy",
+        "statement": "Continuous Delivery (CD) is a practice where code changes are automatically deployed to production after passing automated tests, ensuring code quality and reliability.",
+        "validation": true
+    },
+    {
+        "category": "Deploy",
+        "statement": "Rolling back a deployment means reverting to the previous version of an application when issues or errors are encountered with the new version.",
+        "validation": true
+    },
+    {
+        "category": "Deploy",
+        "statement": "Load balancing is a deployment strategy that distributes incoming network traffic across multiple servers or instances to ensure stability and performance.",
+        "validation": true
+    },
+    {
+        "category": "Inheritance",
+        "statement": "Inheritance is a mechanism in object-oriented programming that allows a new class to inherit properties and behaviors from an existing class.",
+        "validation": true
+    },
+    {
+        "category": "Inheritance",
+        "statement": "A subclass can inherit both the attributes (data members) and methods (functions) of its superclass.",
+        "validation": true
+    },
+    {
+        "category": "Inheritance",
+        "statement": "Inheritance promotes code reusability by allowing you to define common attributes and behaviors in a single class, which can then be inherited by multiple subclasses.",
+        "validation": true
+    },
+    {
+        "category": "Inheritance",
+        "statement": "Inheritance is only supported in some programming languages and is not a fundamental concept in all programming paradigms.",
+        "validation": false
+    },
+    {
+        "category": "Inheritance",
+        "statement": "Inheritance creates a strong coupling between the superclass and its subclasses, making it difficult to modify the superclass without affecting the subclasses.",
+        "validation": true
+    },
+    {
+        "category": "Inheritance",
+        "statement": "A subclass can override (redefine) a method from its superclass to provide a specialized implementation.",
+        "validation": true
+    },
+    {
+        "category": "Inheritance",
+        "statement": "A superclass can inherit methods and attributes from its subclasses to extend its functionality.",
+        "validation": false
+    },
+    {
+        "category": "Inheritance",
+        "statement": "Inheritance allows for multiple inheritance, where a class can inherit from more than one superclass, creating complex class hierarchies.",
+        "validation": true
+    },
+    {
+        "category": "Inheritance",
+        "statement": "Inheritance is limited to single-level hierarchies, meaning a class can only inherit from one immediate superclass.",
+        "validation": false
+    },
+    {
+        "category": "Inheritance",
+        "statement": "Private members of a superclass are always accessible to its subclasses, promoting encapsulation and data hiding.",
+        "validation": false
+    },
+    {
+        "category": "Encapsulation",
+        "statement": "Encapsulation is one of the four fundamental principles of object-oriented programming (OOP), along with inheritance, polymorphism, and abstraction.",
+        "validation": true
+    },
+    {
+        "category": "Encapsulation",
+        "statement": "Encapsulation refers to the practice of bundling data (attributes) and methods (functions) that operate on that data into a single unit, called an object.",
+        "validation": true
+    },
+    {
+        "category": "Encapsulation",
+        "statement": "In encapsulation, data within an object is typically made directly accessible from outside the object, promoting unrestricted access and modification.",
+        "validation": false
+    },
+    {
+        "category": "Encapsulation",
+        "statement": "Access specifiers, such as 'public,' 'private,' and 'protected,' are used in OOP to control the visibility and accessibility of class members.",
+        "validation": true
+    },
+    {
+        "category": "Encapsulation",
+        "statement": "In OOP, encapsulation helps hide the internal details and implementation of a class, exposing only a well-defined interface to the outside world.",
+        "validation": true
+    },
+    {
+        "category": "Encapsulation",
+        "statement": "Encapsulation is a concept only applicable in some programming languages and has no relevance in others.",
+        "validation": false
+    },
+    {
+        "category": "Encapsulation",
+        "statement": "In encapsulation, it's common practice to provide unrestricted public access to class members to simplify code interaction and usage.",
+        "validation": false
+    },
+    {
+        "category": "Encapsulation",
+        "statement": "Encapsulation can help prevent unintended modification of data by external code, enhancing data integrity and security.",
+        "validation": true
+    },
+    {
+        "category": "Encapsulation",
+        "statement": "In OOP, encapsulation is primarily concerned with the inheritance hierarchy and the organization of classes within a program.",
+        "validation": false
+    },
+    {
+        "category": "Encapsulation",
+        "statement": "Encapsulation and abstraction are often used interchangeably in OOP, as they refer to the same concept of bundling data and methods together.",
+        "validation": false
+    },
+    {
+        "category": "Polymorphism",
+        "statement": "Polymorphism is one of the four fundamental principles of object-oriented programming (OOP), along with encapsulation, inheritance, and abstraction.",
+        "validation": true
+    },
+    {
+        "category": "Polymorphism",
+        "statement": "Polymorphism allows objects of different classes to be treated as objects of a common superclass, simplifying code and promoting flexibility.",
+        "validation": true
+    },
+    {
+        "category": "Polymorphism",
+        "statement": "Inheritance and polymorphism are unrelated concepts in OOP and have no influence on each other.",
+        "validation": false
+    },
+    {
+        "category": "Polymorphism",
+        "statement": "Polymorphism is primarily achieved through method overloading, where a single method can have multiple implementations with different parameters.",
+        "validation": false
+    },
+    {
+        "category": "Polymorphism",
+        "statement": "Compile-time polymorphism, also known as static polymorphism, is resolved at runtime based on the actual type of the object.",
+        "validation": false
+    },
+    {
+        "category": "Polymorphism",
+        "statement": "Dynamic polymorphism, also known as runtime polymorphism, is achieved through method overriding, where a subclass provides a specific implementation of a method defined in its superclass.",
+        "validation": true
+    },
+    {
+        "category": "Polymorphism",
+        "statement": "In polymorphism, a reference variable of a superclass can refer to an object of either the superclass or any of its subclasses.",
+        "validation": true
+    },
+    {
+        "category": "Polymorphism",
+        "statement": "Polymorphism is only applicable in statically-typed programming languages and has no place in dynamically-typed languages.",
+        "validation": false
+    },
+    {
+        "category": "Polymorphism",
+        "statement": "Polymorphism allows for code that can work with objects of different types without needing to know their specific types in advance.",
+        "validation": true
+    },
+    {
+        "category": "Polymorphism",
+        "statement": "Method overriding is a technique that allows a subclass to provide a specific implementation of a method defined in its superclass, changing the method's behavior.",
+        "validation": true
+    },
+    {
+        "category": "GitHub",
+        "statement": "GitHub is a web-based platform that provides hosting for version control repositories using Git.",
+        "validation": true
+    },
+    {
+        "category": "GitHub",
+        "statement": "GitHub is primarily used for project management and collaboration, but it does not support version control.",
+        "validation": false
+    },
+    {
+        "category": "GitHub",
+        "statement": "Git and GitHub are the same thing and can be used interchangeably to refer to version control and repository hosting.",
+        "validation": false
+    },
+    {
+        "category": "GitHub",
+        "statement": "GitHub offers both free and paid plans, with additional features available for paid users.",
+        "validation": true
+    },
+    {
+        "category": "GitHub",
+        "statement": "GitHub is exclusively for individual developers, and organizations cannot use it for hosting their code repositories.",
+        "validation": false
+    },
+    {
+        "category": "GitHub",
+        "statement": "Pull Requests in GitHub are used to propose changes to a repository and allow for review and discussion before merging.",
+        "validation": true
+    },
+    {
+        "category": "GitHub",
+        "statement": "GitHub Actions is a feature that allows you to automate workflows and tasks within your repositories.",
+        "validation": true
+    },
+    {
+        "category": "GitHub",
+        "statement": "GitHub is limited to hosting only public repositories, and private repositories are not supported.",
+        "validation": false
+    },
+    {
+        "category": "GitHub",
+        "statement": "GitHub Gist is a feature for hosting full-fledged websites and web applications on the platform.",
+        "validation": false
+    },
+    {
+        "category": "GitHub",
+        "statement": "GitHub Desktop is a graphical user interface (GUI) application for Git and GitHub, providing an alternative to the command-line interface.",
+        "validation": true
+    },
+    {
+        "category": "React",
+        "statement": "React is a JavaScript library for building user interfaces, developed and maintained by Facebook.",
+        "validation": true
+    },
+    {
+        "category": "React",
+        "statement": "React is a fully-fledged programming language for building server-side applications.",
+        "validation": false
+    },
+    {
+        "category": "React",
+        "statement": "React uses a virtual DOM (Document Object Model) to optimize rendering performance and update only the parts of the UI that change.",
+        "validation": true
+    },
+    {
+        "category": "React",
+        "statement": "React components are reusable and self-contained units of code that can be combined to build complex user interfaces.",
+        "validation": true
+    },
+    {
+        "category": "React",
+        "statement": "React primarily focuses on server-side rendering and does not support client-side rendering.",
+        "validation": false
+    },
+    {
+        "category": "React",
+        "statement": "React Native is a framework that allows developers to build mobile applications using the React library.",
+        "validation": true
+    },
+    {
+        "category": "React",
+        "statement": "React applications can only be written in JSX (JavaScript XML) and cannot be mixed with plain JavaScript.",
+        "validation": false
+    },
+    {
+        "category": "React",
+        "statement": "React encourages the use of a one-way data flow, making it easier to understand how data changes affect the UI.",
+        "validation": true
+    },
+    {
+        "category": "React",
+        "statement": "React components can only be stateful, and there is no concept of stateless components in React.",
+        "validation": false
+    },
+    {
+        "category": "React",
+        "statement": "React provides built-in support for routing, allowing developers to create single-page applications (SPAs) with ease.",
+        "validation": true
+    },
+    {
+        "category": "Node.js",
+        "statement": "Node.js is a JavaScript runtime environment that allows you to run JavaScript code on the server-side.",
+        "validation": true
+    },
+    {
+        "category": "Node.js",
+        "statement": "Node.js is primarily used for front-end development to build interactive user interfaces.",
+        "validation": false
+    },
+    {
+        "category": "Node.js",
+        "statement": "Node.js uses an event-driven, non-blocking I/O model, which makes it well-suited for building scalable and real-time applications.",
+        "validation": true
+    },
+    {
+        "category": "Node.js",
+        "statement": "Node.js applications are written in a different programming language, such as Java or Python, and cannot use JavaScript.",
+        "validation": false
+    },
+    {
+        "category": "Node.js",
+        "statement": "npm (Node Package Manager) is the default package manager for Node.js, used to install and manage third-party packages and libraries.",
+        "validation": true
+    },
+    {
+        "category": "Node.js",
+        "statement": "Node.js can only be used for building server-side applications and is not suitable for client-side development.",
+        "validation": false
+    },
+    {
+        "category": "Node.js",
+        "statement": "Node.js includes built-in support for multi-threading, making it easy to parallelize code execution.",
+        "validation": false
+    },
+    {
+        "category": "Node.js",
+        "statement": "The Node.js event loop is responsible for handling asynchronous operations and ensuring that I/O operations do not block the application's execution.",
+        "validation": true
+    },
+    {
+        "category": "Node.js",
+        "statement": "Node.js is only compatible with the Windows operating system and cannot be used on Linux or macOS.",
+        "validation": false
+    },
+    {
+        "category": "Node.js",
+        "statement": "Express.js is a popular web framework for Node.js that simplifies the process of building web applications and APIs.",
+        "validation": true
+    },
+    {
+        "category": "JavaScript",
+        "statement": "JavaScript is a high-level, interpreted programming language that is primarily used for front-end web development.",
+        "validation": true
+    },
+    {
+        "category": "JavaScript",
+        "statement": "JavaScript code is executed on the server-side to handle back-end logic in web applications.",
+        "validation": false
+    },
+    {
+        "category": "JavaScript",
+        "statement": "JavaScript is often referred to as ECMAScript, which is the standardized specification for the language.",
+        "validation": true
+    },
+    {
+        "category": "JavaScript",
+        "statement": "JavaScript is a statically-typed language, meaning variable types must be declared explicitly before use.",
+        "validation": false
+    },
+    {
+        "category": "JavaScript",
+        "statement": "JavaScript is single-threaded, which means it can only perform one task at a time and is not suitable for concurrent programming.",
+        "validation": false
+    },
+    {
+        "category": "JavaScript",
+        "statement": "Promises and async/await are features in JavaScript used to work with asynchronous code and handle callbacks more efficiently.",
+        "validation": true
+    },
+    {
+        "category": "JavaScript",
+        "statement": "JavaScript does not have built-in support for object-oriented programming (OOP) concepts like classes and inheritance.",
+        "validation": false
+    },
+    {
+        "category": "JavaScript",
+        "statement": "The Document Object Model (DOM) is a programming interface for HTML and XML documents, allowing JavaScript to manipulate the content and structure of web pages.",
+        "validation": true
+    },
+    {
+        "category": "JavaScript",
+        "statement": "JavaScript is primarily used on the client-side to enhance the interactivity and functionality of web pages.",
+        "validation": true
+    },
+    {
+        "category": "JavaScript",
+        "statement": "JavaScript applications can only run in web browsers and cannot be used for server-side development.",
+        "validation": false
+    },
+    {
+        "category": "NPM",
+        "statement": "NPM stands for Node Package Manager and is the default package manager for JavaScript and Node.js.",
+        "validation": true
+    },
+    {
+        "category": "NPM",
+        "statement": "NPM can only be used to manage JavaScript packages and libraries and is not suitable for other programming languages.",
+        "validation": false
+    },
+    {
+        "category": "NPM",
+        "statement": "NPM allows developers to easily install, update, and manage third-party packages and dependencies in their projects.",
+        "validation": true
+    },
+    {
+        "category": "NPM",
+        "statement": "NPM packages are always installed globally on the system, making them accessible to all Node.js projects.",
+        "validation": false
+    },
+    {
+        "category": "NPM",
+        "statement": "The 'package.json' file is used to define project metadata and dependencies, making it an essential part of NPM-based projects.",
+        "validation": true
+    },
+    {
+        "category": "NPM",
+        "statement": "NPM scripts allow developers to define custom tasks and automation processes within their projects, such as building and testing.",
+        "validation": true
+    },
+    {
+        "category": "NPM",
+        "statement": "NPM does not support versioning of packages, and once a package is installed, it cannot be updated to a newer version.",
+        "validation": false
+    },
+    {
+        "category": "NPM",
+        "statement": "The 'npm install' command is used to install project dependencies listed in the 'package.json' file.",
+        "validation": true
+    },
+    {
+        "category": "NPM",
+        "statement": "NPM is only available for Windows operating systems and is not compatible with Linux or macOS.",
+        "validation": false
+    },
+    {
+        "category": "NPM",
+        "statement": "The 'npm publish' command is used to publish a package to the NPM registry, making it available for others to use and install.",
+        "validation": true
+    },
+    {
+        "category": "Visual Studio Code",
+        "statement": "Visual Studio Code (VS Code) is a free, open-source code editor developed by Microsoft.",
+        "validation": true
+    },
+    {
+        "category": "Visual Studio Code",
+        "statement": "VS Code is primarily a fully-fledged integrated development environment (IDE) for building complex software applications.",
+        "validation": false
+    },
+    {
+        "category": "Visual Studio Code",
+        "statement": "VS Code is available on multiple platforms, including Windows, macOS, and Linux.",
+        "validation": true
+    },
+    {
+        "category": "Visual Studio Code",
+        "statement": "Extensions in VS Code provide additional functionality and can be used to customize the editor's features and behavior.",
+        "validation": true
+    },
+    {
+        "category": "Visual Studio Code",
+        "statement": "VS Code is exclusively used for developing web applications and does not support other programming languages.",
+        "validation": false
+    },
+    {
+        "category": "Visual Studio Code",
+        "statement": "VS Code includes built-in support for version control systems like Git, making it easier to manage code repositories.",
+        "validation": true
+    },
+    {
+        "category": "Visual Studio Code",
+        "statement": "VS Code extensions can only be developed using JavaScript and are not compatible with other programming languages.",
+        "validation": false
+    },
+    {
+        "category": "Visual Studio Code",
+        "statement": "The VS Code marketplace is where you can find and install various extensions, themes, and other resources to enhance your development experience.",
+        "validation": true
+    },
+    {
+        "category": "Visual Studio Code",
+        "statement": "VS Code does not support debugging and does not include any debugging tools or features.",
+        "validation": false
+    },
+    {
+        "category": "Visual Studio Code",
+        "statement": "VS Code provides an integrated terminal, allowing developers to run command-line commands and scripts directly within the editor.",
+        "validation": true
+    },
+    {
+        "category": "Flexbox",
+        "statement": "Flexbox is a layout model in CSS that is used for designing complex grid-based layouts.",
+        "validation": false
+    },
+    {
+        "category": "Flexbox",
+        "statement": "The main axis in a flex container is the horizontal axis, and the cross axis is the vertical axis.",
+        "validation": true
+    },
+    {
+        "category": "Flexbox",
+        "statement": "Flexbox is a one-dimensional layout model, which means it can handle both rows and columns but not both at the same time.",
+        "validation": false
+    },
+    {
+        "category": "Flexbox",
+        "statement": "In a flex container, the flex items can have different heights, and Flexbox will automatically align them based on their content.",
+        "validation": true
+    },
+    {
+        "category": "Flexbox",
+        "statement": "The 'flex-grow' property is used to control the flexibility of flex items and determine how they share available space within the container.",
+        "validation": true
+    },
+    {
+        "category": "Flexbox",
+        "statement": "In Flexbox, the 'justify-content' property is used to align flex items along the cross axis of the container.",
+        "validation": false
+    },
+    {
+        "category": "Flexbox",
+        "statement": "Flexbox is supported in all modern web browsers, making it a reliable choice for creating responsive layouts.",
+        "validation": true
+    },
+    {
+        "category": "Flexbox",
+        "statement": "To create a row-based layout with Flexbox, you need to set the 'flex-direction' property to 'row'.",
+        "validation": true
+    },
+    {
+        "category": "Flexbox",
+        "statement": "In Flexbox, the 'align-items' property is used to align flex items along the main axis of the container.",
+        "validation": false
+    },
+    {
+        "category": "Flexbox",
+        "statement": "The 'order' property in Flexbox allows you to change the visual order of flex items within a container.",
+        "validation": true
+    },
+    {
+        "category": "Bootstrap",
+        "statement": "Bootstrap is a free and open-source front-end framework for web development that includes HTML, CSS, and JavaScript components.",
+        "validation": true
+    },
+    {
+        "category": "Bootstrap",
+        "statement": "Bootstrap is primarily a back-end framework used for server-side scripting and database management.",
+        "validation": false
+    },
+    {
+        "category": "Bootstrap",
+        "statement": "Bootstrap provides a responsive grid system that helps in creating flexible and mobile-friendly web layouts.",
+        "validation": true
+    },
+    {
+        "category": "Bootstrap",
+        "statement": "Bootstrap requires developers to write all CSS and JavaScript code from scratch and does not offer any pre-built components.",
+        "validation": false
+    },
+    {
+        "category": "Bootstrap",
+        "statement": "Bootstrap's CSS classes use a 12-column grid system for laying out content, making it easy to create complex layouts.",
+        "validation": true
+    },
+    {
+        "category": "Bootstrap",
+        "statement": "Bootstrap includes a collection of customizable themes and templates for creating visually appealing websites.",
+        "validation": true
+    },
+    {
+        "category": "Bootstrap",
+        "statement": "Bootstrap's JavaScript components, such as modals and tooltips, must be written entirely in vanilla JavaScript and cannot be customized.",
+        "validation": false
+    },
+    {
+        "category": "Bootstrap",
+        "statement": "Bootstrap 4 is the latest version of the framework and introduced significant changes and improvements over Bootstrap 3.",
+        "validation": true
+    },
+    {
+        "category": "Bootstrap",
+        "statement": "Bootstrap's utility classes can be used to apply styles directly to HTML elements without writing custom CSS.",
+        "validation": true
+    },
+    {
+        "category": "Bootstrap",
+        "statement": "Bootstrap is not suitable for building mobile-first and responsive web applications.",
+        "validation": false
+    },
+    {
+        "category": "Python",
+        "statement": "Python is a high-level, interpreted programming language known for its simplicity and readability.",
+        "validation": true
+    },
+    {
+        "category": "Python",
+        "statement": "Python is a compiled language, which means that code must be compiled before it can be executed.",
+        "validation": false
+    },
+    {
+        "category": "Python",
+        "statement": "Python uses indentation to define code blocks, making it essential for code readability and structure.",
+        "validation": true
+    },
+    {
+        "category": "Python",
+        "statement": "Python is primarily used for front-end web development to build interactive user interfaces.",
+        "validation": false
+    },
+    {
+        "category": "Python",
+        "statement": "Python has a global interpreter lock (GIL) that allows only one thread to execute Python bytecode at a time, making it unsuitable for multi-threaded performance.",
+        "validation": true
+    },
+    {
+        "category": "Python",
+        "statement": "Python's standard library includes modules for a wide range of tasks, from file handling to web development.",
+        "validation": true
+    },
+    {
+        "category": "Python",
+        "statement": "Python supports multiple inheritance, allowing a class to inherit attributes and methods from more than one parent class.",
+        "validation": true
+    },
+    {
+        "category": "Python",
+        "statement": "Python is not suitable for scientific computing and data analysis because it lacks libraries and tools for these tasks.",
+        "validation": false
+    },
+    {
+        "category": "Python",
+        "statement": "Python is often used for tasks like web scraping, automation, and scripting due to its ease of use and extensive third-party libraries.",
+        "validation": true
+    },
+    {
+        "category": "Python",
+        "statement": "Python is case-sensitive, which means that variable names like 'MyVar' and 'myvar' are treated as different variables.",
+        "validation": true
+    },
+    {
+        "category": "C",
+        "statement": "C is a high-level programming language known for its simplicity and ease of use.",
+        "validation": false
+    },
+    {
+        "category": "C",
+        "statement": "C is a statically-typed language, which means variable types must be declared explicitly before use.",
+        "validation": true
+    },
+    {
+        "category": "C",
+        "statement": "C programs are typically compiled into machine code before execution, resulting in highly efficient and fast programs.",
+        "validation": true
+    },
+    {
+        "category": "C",
+        "statement": "C does not support structured programming and does not have constructs like functions or loops.",
+        "validation": false
+    },
+    {
+        "category": "C",
+        "statement": "C provides built-in support for object-oriented programming (OOP) concepts, including classes and inheritance.",
+        "validation": false
+    },
+    {
+        "category": "C",
+        "statement": "C's standard library includes modules for a wide range of tasks, from file handling to complex mathematical operations.",
+        "validation": true
+    },
+    {
+        "category": "C",
+        "statement": "C programs are platform-independent, and code written in C can be executed on any operating system without modification.",
+        "validation": false
+    },
+    {
+        "category": "C",
+        "statement": "C is commonly used for system programming, including the development of operating systems and device drivers.",
+        "validation": true
+    },
+    {
+        "category": "C",
+        "statement": "C programs do not require the use of a main() function as the entry point, making it flexible in program structure.",
+        "validation": false
+    },
+    {
+        "category": "C",
+        "statement": "C is case-sensitive, which means that variable names like 'MyVar' and 'myvar' are treated as different variables.",
+        "validation": true
+    },
+    {
+        "category": "Java",
+        "statement": "Java is a high-level, object-oriented programming language known for its platform independence.",
+        "validation": true
+    },
+    {
+        "category": "Java",
+        "statement": "Java code is compiled into machine code that runs directly on the CPU, resulting in high performance.",
+        "validation": false
+    },
+    {
+        "category": "Java",
+        "statement": "Java uses a virtual machine (JVM) to execute code, allowing it to be platform-independent.",
+        "validation": true
+    },
+    {
+        "category": "Java",
+        "statement": "Java does not support multi-threading and concurrent programming, making it unsuitable for parallel processing.",
+        "validation": false
+    },
+    {
+        "category": "Java",
+        "statement": "Java's standard library includes packages for tasks like file I/O, networking, and database connectivity.",
+        "validation": true
+    },
+    {
+        "category": "Java",
+        "statement": "Java is primarily used for web development and building interactive user interfaces in browsers.",
+        "validation": false
+    },
+    {
+        "category": "Java",
+        "statement": "Java supports multiple inheritance, allowing a class to inherit attributes and methods from more than one parent class.",
+        "validation": false
+    },
+    {
+        "category": "Java",
+        "statement": "Java applications can be run on any operating system without modification, as long as a compatible JVM is available.",
+        "validation": true
+    },
+    {
+        "category": "Java",
+        "statement": "Java applications must have a 'public static void main(String[] args)' method as the entry point for execution.",
+        "validation": true
+    },
+    {
+        "category": "Java",
+        "statement": "Java is case-sensitive, which means that variable names like 'MyVar' and 'myvar' are treated as different variables.",
+        "validation": true
+    },
+    {
+        "category": "TypeScript",
+        "statement": "TypeScript is a strict syntactical superset of JavaScript, adding optional static typing to the language.",
+        "validation": true
+    },
+    {
+        "category": "TypeScript",
+        "statement": "TypeScript code is directly executed in browsers without the need for transpilation.",
+        "validation": false
+    },
+    {
+        "category": "TypeScript",
+        "statement": "TypeScript's primary goal is to improve code quality and maintainability in large-scale applications.",
+        "validation": true
+    },
+    {
+        "category": "TypeScript",
+        "statement": "TypeScript does not support JavaScript features and libraries, making it incompatible with existing JavaScript codebases.",
+        "validation": false
+    },
+    {
+        "category": "TypeScript",
+        "statement": "TypeScript uses type annotations to define variable types, which helps catch type-related errors during development.",
+        "validation": true
+    },
+    {
+        "category": "TypeScript",
+        "statement": "TypeScript code must be transpiled to JavaScript before it can be executed in browsers or Node.js environments.",
+        "validation": true
+    },
+    {
+        "category": "TypeScript",
+        "statement": "TypeScript is commonly used for both client-side and server-side development, thanks to its versatility.",
+        "validation": true
+    },
+    {
+        "category": "TypeScript",
+        "statement": "TypeScript offers runtime type checking, which ensures that types are validated during execution.",
+        "validation": false
+    },
+    {
+        "category": "TypeScript",
+        "statement": "TypeScript's type system allows developers to explicitly define nullable and non-nullable types.",
+        "validation": true
+    },
+    {
+        "category": "TypeScript",
+        "statement": "TypeScript is a separate programming language with its own ecosystem and libraries, distinct from JavaScript.",
+        "validation": false
+    },
+    {
+        "category": "MongoDB",
+        "statement": "MongoDB is a popular NoSQL database management system known for its flexibility and scalability.",
+        "validation": true
+    },
+    {
+        "category": "MongoDB",
+        "statement": "MongoDB stores data in structured tables with predefined schemas, similar to traditional relational databases.",
+        "validation": false
+    },
+    {
+        "category": "MongoDB",
+        "statement": "In MongoDB, data is stored in BSON (Binary JSON) format, which allows for efficient storage and retrieval of documents.",
+        "validation": true
+    },
+    {
+        "category": "MongoDB",
+        "statement": "MongoDB uses the SQL query language for retrieving and manipulating data in the database.",
+        "validation": false
+    },
+    {
+        "category": "MongoDB",
+        "statement": "MongoDB supports ACID (Atomicity, Consistency, Isolation, Durability) transactions for data integrity and consistency.",
+        "validation": true
+    },
+    {
+        "category": "MongoDB",
+        "statement": "MongoDB is a relational database management system (RDBMS) and follows the principles of relational databases.",
+        "validation": false
+    },
+    {
+        "category": "MongoDB",
+        "statement": "In MongoDB, collections are the equivalent of tables in relational databases, and documents are the equivalent of rows.",
+        "validation": true
+    },
+    {
+        "category": "MongoDB",
+        "statement": "MongoDB is primarily used for handling structured data and is not suitable for unstructured or semi-structured data.",
+        "validation": false
+    },
+    {
+        "category": "MongoDB",
+        "statement": "MongoDB is a fully SQL-compliant database system, allowing developers to use standard SQL queries.",
+        "validation": false
+    },
+    {
+        "category": "MongoDB",
+        "statement": "MongoDB offers horizontal scalability through sharding, allowing it to handle large amounts of data and high traffic loads.",
+        "validation": true
+    },
+    {
+        "category": "Microservices",
+        "statement": "Microservices is an architectural style where an application is divided into a collection of small, independent services that communicate with each other.",
+        "validation": true
+    },
+    {
+        "category": "Microservices",
+        "statement": "In a microservices architecture, all services are tightly coupled, making it challenging to update or scale individual components.",
+        "validation": false
+    },
+    {
+        "category": "Microservices",
+        "statement": "Microservices are typically developed and deployed using a monolithic approach, where all services are part of a single codebase.",
+        "validation": false
+    },
+    {
+        "category": "Microservices",
+        "statement": "Each microservice in a microservices architecture can have its own technology stack and database, allowing for technology diversity.",
+        "validation": true
+    },
+    {
+        "category": "Microservices",
+        "statement": "Microservices architecture is suitable for small-scale applications but is not recommended for large and complex systems.",
+        "validation": false
+    },
+    {
+        "category": "Microservices",
+        "statement": "Microservices communicate with each other through synchronous HTTP requests, ensuring real-time data consistency.",
+        "validation": false
+    },
+    {
+        "category": "Microservices",
+        "statement": "Microservices are designed to be stateful, storing data and maintaining session information between requests.",
+        "validation": false
+    },
+    {
+        "category": "Microservices",
+        "statement": "The use of containers, such as Docker, is common in microservices architecture to isolate and deploy services independently.",
+        "validation": true
+    },
+    {
+        "category": "Microservices",
+        "statement": "Microservices often follow the DevOps approach, where development and operations teams work closely to automate deployment and monitoring.",
+        "validation": true
+    },
+    {
+        "category": "Microservices",
+        "statement": "In a microservices architecture, failures in one service can impact the entire application, leading to complex error handling and fault tolerance strategies.",
+        "validation": true
+    },
+    {
+        "category": "Cybersecurity",
+        "statement": "Cybersecurity is the practice of protecting computer systems, networks, and data from theft, damage, or unauthorized access.",
+        "validation": true
+    },
+    {
+        "category": "Cybersecurity",
+        "statement": "A firewall is a cybersecurity tool that is used to physically secure a computer by preventing physical access to it.",
+        "validation": false
+    },
+    {
+        "category": "Cybersecurity",
+        "statement": "Two-factor authentication (2FA) is a security measure that requires users to provide two different authentication factors, typically something they know and something they have.",
+        "validation": true
+    },
+    {
+        "category": "Cybersecurity",
+        "statement": "Phishing is a type of attack where an attacker tries to gain unauthorized access to a system by exploiting vulnerabilities in the software.",
+        "validation": false
+    },
+    {
+        "category": "Cybersecurity",
+        "statement": "Antivirus software is a cybersecurity tool that helps protect computers from malware, such as viruses and worms.",
+        "validation": true
+    },
+    {
+        "category": "Cybersecurity",
+        "statement": "A strong password should be short and easy to remember to reduce the risk of forgetting it.",
+        "validation": false
+    },
+    {
+        "category": "Cybersecurity",
+        "statement": "A Distributed Denial of Service (DDoS) attack is a cybersecurity threat that involves an attacker gaining unauthorized access to a system's database.",
+        "validation": false
+    },
+    {
+        "category": "Cybersecurity",
+        "statement": "The General Data Protection Regulation (GDPR) is a cybersecurity regulation that only applies to businesses in the United States.",
+        "validation": false
+    },
+    {
+        "category": "Cybersecurity",
+        "statement": "A penetration test (pen test) is a cybersecurity assessment that involves simulating cyberattacks to identify vulnerabilities in a system.",
+        "validation": true
+    },
+    {
+        "category": "Cybersecurity",
+        "statement": "A VPN (Virtual Private Network) can be used to encrypt internet traffic and enhance online privacy and security.",
+        "validation": true
+    },
+    {
+        "category": "WebAssembly",
+        "statement": "WebAssembly is a binary instruction format designed for safe and efficient execution on web browsers.",
+        "validation": true
+    },
+    {
+        "category": "WebAssembly",
+        "statement": "WebAssembly code is executed directly by the web browser's JavaScript engine without the need for compilation.",
+        "validation": false
+    },
+    {
+        "category": "WebAssembly",
+        "statement": "WebAssembly allows developers to write code in programming languages other than JavaScript, such as C, C++, and Rust, and run it in web browsers.",
+        "validation": true
+    },
+    {
+        "category": "WebAssembly",
+        "statement": "WebAssembly is primarily used for server-side programming and is not relevant for client-side web development.",
+        "validation": false
+    },
+    {
+        "category": "WebAssembly",
+        "statement": "WebAssembly provides a low-level assembly-like language that allows for fine-grained control over system resources and memory management.",
+        "validation": true
+    },
+    {
+        "category": "WebAssembly",
+        "statement": "WebAssembly is supported by all major web browsers, including Chrome, Firefox, Safari, and Edge.",
+        "validation": true
+    },
+    {
+        "category": "WebAssembly",
+        "statement": "WebAssembly is only compatible with Linux-based operating systems and cannot be used on Windows or macOS.",
+        "validation": false
+    },
+    {
+        "category": "WebAssembly",
+        "statement": "WebAssembly modules can interact with JavaScript code, allowing seamless integration with existing web applications.",
+        "validation": true
+    },
+    {
+        "category": "WebAssembly",
+        "statement": "WebAssembly is a replacement for JavaScript and aims to completely replace JavaScript in web development.",
+        "validation": false
+    },
+    {
+        "category": "WebAssembly",
+        "statement": "WebAssembly is designed to improve the performance of web applications by providing near-native execution speeds in the browser.",
+        "validation": true
+    },
+    {
+        "category": "Artificial Intelligence",
+        "statement": "Artificial Intelligence (AI) is a branch of computer science that focuses on creating systems that can perform tasks that typically require human intelligence.",
+        "validation": true
+    },
+    {
+        "category": "Artificial Intelligence",
+        "statement": "Machine learning is a subset of AI that deals with programming computers to learn from data and improve their performance over time.",
+        "validation": true
+    },
+    {
+        "category": "Artificial Intelligence",
+        "statement": "AI systems are only capable of performing tasks that they have been explicitly programmed for and cannot adapt to new situations.",
+        "validation": false
+    },
+    {
+        "category": "Artificial Intelligence",
+        "statement": "Deep learning is a type of AI that primarily focuses on simulating human-like emotional intelligence in machines.",
+        "validation": false
+    },
+    {
+        "category": "Artificial Intelligence",
+        "statement": "Natural Language Processing (NLP) is a field of AI that deals with enabling computers to understand, interpret, and generate human language.",
+        "validation": true
+    },
+    {
+        "category": "Artificial Intelligence",
+        "statement": "AI-powered chatbots and virtual assistants, like Siri and Alexa, use machine learning algorithms to improve their responses over time.",
+        "validation": true
+    },
+    {
+        "category": "Artificial Intelligence",
+        "statement": "The Turing Test is a measure of a machine's ability to exhibit intelligent behavior equivalent to, or indistinguishable from, that of a human.",
+        "validation": true
+    },
+    {
+        "category": "Artificial Intelligence",
+        "statement": "AI technologies have not made significant contributions to fields like healthcare, finance, and autonomous vehicles.",
+        "validation": false
+    },
+    {
+        "category": "Artificial Intelligence",
+        "statement": "Reinforcement learning is a machine learning approach that does not involve reward-based decision-making and learning from trial and error.",
+        "validation": false
+    },
+    {
+        "category": "Artificial Intelligence",
+        "statement": "Ethical considerations in AI, such as bias and privacy, are not important factors to consider in AI development.",
+        "validation": false
+    },
+    {
+        "category": "Machine Learning",
+        "statement": "Machine Learning is a subset of Artificial Intelligence (AI) that focuses on the development of algorithms that enable computers to learn and make predictions from data.",
+        "validation": true
+    },
+    {
+        "category": "Machine Learning",
+        "statement": "In Supervised Learning, the algorithm is trained on a labeled dataset, where the correct answers are provided along with the input data.",
+        "validation": true
+    },
+    {
+        "category": "Machine Learning",
+        "statement": "Unsupervised Learning is a type of machine learning where the algorithm is provided with labeled data for training.",
+        "validation": false
+    },
+    {
+        "category": "Machine Learning",
+        "statement": "Deep Learning is a machine learning approach that does not involve neural networks and is primarily used for image recognition.",
+        "validation": false
+    },
+    {
+        "category": "Machine Learning",
+        "statement": "Overfitting occurs when a machine learning model performs well on the training data but poorly on new, unseen data.",
+        "validation": true
+    },
+    {
+        "category": "Machine Learning",
+        "statement": "In Reinforcement Learning, an agent learns by interacting with an environment and receiving rewards or penalties based on its actions.",
+        "validation": true
+    },
+    {
+        "category": "Machine Learning",
+        "statement": "Machine Learning algorithms do not require any data preprocessing or feature engineering and can work directly with raw data.",
+        "validation": false
+    },
+    {
+        "category": "Machine Learning",
+        "statement": "Gradient Descent is an optimization technique commonly used to train machine learning models by minimizing a loss function.",
+        "validation": true
+    },
+    {
+        "category": "Machine Learning",
+        "statement": "In Semi-Supervised Learning, a machine learning model is trained using only labeled data, without any use of unlabeled data.",
+        "validation": false
+    },
+    {
+        "category": "Machine Learning",
+        "statement": "Transfer Learning is a machine learning technique that involves training a model on one task and then applying it to a completely unrelated task.",
+        "validation": true
+    },
+    {
+        "category": "Cloud Computing",
+        "statement": "Cloud Computing is a technology that allows users to access and use computing resources (e.g., servers, storage, databases) over the internet on a pay-as-you-go basis.",
+        "validation": true
+    },
+    {
+        "category": "Cloud Computing",
+        "statement": "Private Cloud is a type of cloud deployment model where cloud resources are owned and operated by a single organization for their exclusive use.",
+        "validation": true
+    },
+    {
+        "category": "Cloud Computing",
+        "statement": "Public Cloud is a cloud deployment model where cloud resources are shared among multiple organizations, and users have limited control over the underlying infrastructure.",
+        "validation": true
+    },
+    {
+        "category": "Cloud Computing",
+        "statement": "Cloud providers like Amazon Web Services (AWS) and Microsoft Azure do not offer a range of services, and users need to set up and manage everything from scratch.",
+        "validation": false
+    },
+    {
+        "category": "Cloud Computing",
+        "statement": "Serverless computing is a cloud computing model where users need to manage and provision virtual servers to run their applications.",
+        "validation": false
+    },
+    {
+        "category": "Cloud Computing",
+        "statement": "Cloud Security is not a significant concern in cloud computing, as cloud providers ensure complete security for user data and applications.",
+        "validation": false
+    },
+    {
+        "category": "Cloud Computing",
+        "statement": "Cloud providers typically offer a variety of service models, including Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS).",
+        "validation": true
+    },
+    {
+        "category": "Cloud Computing",
+        "statement": "Multi-tenancy is a cloud computing concept where multiple users or tenants share the same physical infrastructure but have isolated virtualized environments.",
+        "validation": true
+    },
+    {
+        "category": "Cloud Computing",
+        "statement": "In a Hybrid Cloud deployment, organizations use only private cloud resources and do not utilize any public cloud services.",
+        "validation": false
+    },
+    {
+        "category": "Cloud Computing",
+        "statement": "Elasticity is a cloud computing characteristic that allows users to easily scale up or down the resources they use based on demand.",
+        "validation": true
+    },
+    {
+        "category": "Serverless Architecture",
+        "statement": "Serverless architecture is an approach where developers do not need to manage the server infrastructure and only focus on writing code for their applications.",
+        "validation": true
+    },
+    {
+        "category": "Serverless Architecture",
+        "statement": "Serverless applications do not use servers at all; they run entirely on the client-side, such as in web browsers.",
+        "validation": false
+    },
+    {
+        "category": "Serverless Architecture",
+        "statement": "In a serverless architecture, developers are responsible for provisioning and maintaining the servers that run their applications.",
+        "validation": false
+    },
+    {
+        "category": "Serverless Architecture",
+        "statement": "Serverless functions are event-driven and only execute in response to specific events or triggers, such as HTTP requests or database changes.",
+        "validation": true
+    },
+    {
+        "category": "Serverless Architecture",
+        "statement": "Serverless platforms require developers to pay a fixed monthly fee for server resources, regardless of their usage.",
+        "validation": false
+    },
+    {
+        "category": "Serverless Architecture",
+        "statement": "AWS Lambda, Azure Functions, and Google Cloud Functions are examples of serverless computing platforms.",
+        "validation": true
+    },
+    {
+        "category": "Serverless Architecture",
+        "statement": "In serverless architecture, there is no need for scaling because resources are automatically allocated as needed to handle traffic spikes.",
+        "validation": true
+    },
+    {
+        "category": "Serverless Architecture",
+        "statement": "Serverless functions can run indefinitely, without any time or execution limits imposed by cloud providers.",
+        "validation": false
+    },
+    {
+        "category": "Serverless Architecture",
+        "statement": "In serverless computing, the developer is responsible for patching and updating the operating system and server software.",
+        "validation": false
+    },
+    {
+        "category": "Serverless Architecture",
+        "statement": "Serverless architecture is not suitable for long-running, continuous processes that require constant server presence.",
+        "validation": true
+    },
+    {
+        "category": "Internet of Things (IoT)",
+        "statement": "IoT refers to the network of physical objects or 'things' that are embedded with sensors, software, and connectivity to collect and exchange data.",
+        "validation": true
+    },
+    {
+        "category": "Internet of Things (IoT)",
+        "statement": "IoT devices are typically not connected to the internet or other networks, as they operate in isolation.",
+        "validation": false
+    },
+    {
+        "category": "Internet of Things (IoT)",
+        "statement": "IoT devices often use wireless communication protocols like Wi-Fi, Bluetooth, and cellular networks to connect to the internet.",
+        "validation": true
+    },
+    {
+        "category": "Internet of Things (IoT)",
+        "statement": "The primary goal of IoT is to make all devices intelligent and capable of making decisions without human intervention.",
+        "validation": true
+    },
+    {
+        "category": "Internet of Things (IoT)",
+        "statement": "IoT is mainly limited to consumer applications and has no significant impact on industries like healthcare or agriculture.",
+        "validation": false
+    },
+    {
+        "category": "Internet of Things (IoT)",
+        "statement": "IoT security is not a major concern because IoT devices are isolated and not susceptible to hacking.",
+        "validation": false
+    },
+    {
+        "category": "Internet of Things (IoT)",
+        "statement": "IoT can be applied in various industries, including agriculture, healthcare, transportation, and manufacturing, to improve efficiency and decision-making.",
+        "validation": true
+    },
+    {
+        "category": "Internet of Things (IoT)",
+        "statement": "The data generated by IoT devices is often processed and analyzed in the cloud, allowing for real-time insights and decision support.",
+        "validation": true
+    },
+    {
+        "category": "Internet of Things (IoT)",
+        "statement": "The term 'IoT' only refers to smart home devices, and it is not relevant in a broader industrial context.",
+        "validation": false
+    },
+    {
+        "category": "Internet of Things (IoT)",
+        "statement": "IoT is a relatively new concept with no real-world applications or impact on society as of today.",
+        "validation": false
+    },
+    {
+        "category": "Quantum Computing",
+        "statement": "Quantum computing is a type of computing that leverages the principles of quantum mechanics to perform computations using quantum bits or qubits.",
+        "validation": true
+    },
+    {
+        "category": "Quantum Computing",
+        "statement": "Quantum computers are a type of classical computer that relies on traditional binary bits for processing information.",
+        "validation": false
+    },
+    {
+        "category": "Quantum Computing",
+        "statement": "Quantum computers are known for their ability to solve certain types of problems, such as factoring large numbers, much faster than classical computers.",
+        "validation": true
+    },
+    {
+        "category": "Quantum Computing",
+        "statement": "Quantum computers can only perform basic arithmetic and cannot handle complex tasks like data analysis or simulations.",
+        "validation": false
+    },
+    {
+        "category": "Quantum Computing",
+        "statement": "Quantum entanglement is a fundamental property of quantum systems that allows qubits to be connected in a way that their states are correlated.",
+        "validation": true
+    },
+    {
+        "category": "Quantum Computing",
+        "statement": "Quantum computers are currently widely available for commercial and consumer use, just like classical computers.",
+        "validation": false
+    },
+    {
+        "category": "Quantum Computing",
+        "statement": "Quantum computing has the potential to revolutionize fields like cryptography, optimization, and drug discovery due to its computational power.",
+        "validation": true
+    },
+    {
+        "category": "Quantum Computing",
+        "statement": "Quantum computers are not subject to the same limitations as classical computers, and there are no known challenges in building large-scale quantum computers.",
+        "validation": false
+    },
+    {
+        "category": "Quantum Computing",
+        "statement": "Quantum supremacy is a term used to describe the point at which quantum computers surpass the computational capabilities of classical supercomputers for specific tasks.",
+        "validation": true
+    },
+    {
+        "category": "Quantum Computing",
+        "statement": "Quantum computing is purely theoretical and has not made any practical contributions to science or technology.",
+        "validation": false
+    },
+    {
+        "category": "Natural Language Understanding",
+        "statement": "Natural Language Understanding (NLU) is a subfield of natural language processing (NLP) that focuses on the interaction between humans and computers using natural language.",
+        "validation": true
+    },
+    {
+        "category": "Natural Language Understanding",
+        "statement": "NLU systems can only understand and process text written in English and are not capable of working with other languages.",
+        "validation": false
+    },
+    {
+        "category": "Natural Language Understanding",
+        "statement": "Named Entity Recognition (NER) is a common NLU task that involves identifying and classifying entities such as names of people, places, and organizations in text.",
+        "validation": true
+    },
+    {
+        "category": "Natural Language Understanding",
+        "statement": "NLU models do not require training on specific domains or industries and can work equally well on any type of text.",
+        "validation": false
+    },
+    {
+        "category": "Natural Language Understanding",
+        "statement": "Sentiment analysis, which determines the emotional tone of text, is not a part of NLU and is entirely separate from natural language processing.",
+        "validation": false
+    },
+    {
+        "category": "Natural Language Understanding",
+        "statement": "NLU systems use machine learning techniques to understand and interpret the meaning of text, including its context and semantics.",
+        "validation": true
+    },
+    {
+        "category": "Natural Language Understanding",
+        "statement": "Chatbots and virtual assistants rely on NLU to understand and respond to user queries in natural language.",
+        "validation": true
+    },
+    {
+        "category": "Natural Language Understanding",
+        "statement": "Syntax and grammar analysis are not part of NLU because they focus on surface-level text structure rather than meaning.",
+        "validation": false
+    },
+    {
+        "category": "Natural Language Understanding",
+        "statement": "NLU systems are incapable of handling ambiguous language constructs and cannot disambiguate word meanings in context.",
+        "validation": false
+    },
+    {
+        "category": "Natural Language Understanding",
+        "statement": "NLU is a mature field with no ongoing research and development, as all challenges in understanding natural language have been solved.",
+        "validation": false
+    },
+    {
+        "category": "Augmented Reality (AR)",
+        "statement": "Augmented Reality (AR) is a technology that overlays digital information, such as images, videos, or 3D models, onto the real world, enhancing the user's perception of their surroundings.",
+        "validation": true
+    },
+    {
+        "category": "Augmented Reality (AR)",
+        "statement": "AR can only be experienced through specialized AR glasses and headsets, and it is not accessible on smartphones or tablets.",
+        "validation": false
+    },
+    {
+        "category": "Augmented Reality (AR)",
+        "statement": "Pokemon Go, a popular mobile game, is an example of an AR application that allows players to capture virtual creatures in the real world using their smartphones.",
+        "validation": true
+    },
+    {
+        "category": "Augmented Reality (AR)",
+        "statement": "AR and Virtual Reality (VR) are essentially the same technology, and the terms can be used interchangeably.",
+        "validation": false
+    },
+    {
+        "category": "Augmented Reality (AR)",
+        "statement": "AR technology relies on computer vision and sensors to understand the user's environment and accurately place digital objects in it.",
+        "validation": true
+    },
+    {
+        "category": "Augmented Reality (AR)",
+        "statement": "AR is primarily used for gaming and entertainment purposes and has no significant applications in industries like healthcare, education, or design.",
+        "validation": false
+    },
+    {
+        "category": "Augmented Reality (AR)",
+        "statement": "Smart glasses, like Google Glass, are an example of AR hardware that overlays digital information on the user's field of view.",
+        "validation": true
+    },
+    {
+        "category": "Augmented Reality (AR)",
+        "statement": "AR experiences are always immersive, fully replacing the real world with digital content, and users cannot see the real environment while using AR.",
+        "validation": false
+    },
+    {
+        "category": "Augmented Reality (AR)",
+        "statement": "AR has no practical applications in industries such as remote assistance, medical visualization, or virtual try-on for retail.",
+        "validation": false
+    },
+    {
+        "category": "Augmented Reality (AR)",
+        "statement": "AR has potential privacy concerns, as it can capture and analyze the user's surroundings, raising questions about data security and surveillance.",
+        "validation": true
+    },
+    {
+        "category": "Meta Learning",
+        "statement": "Meta Learning is a subfield of machine learning that focuses on developing models and algorithms capable of learning how to learn.",
+        "validation": true
+    },
+    {
+        "category": "Meta Learning",
+        "statement": "Meta Learning is primarily concerned with training models on large datasets to improve their accuracy on specific tasks.",
+        "validation": false
+    },
+    {
+        "category": "Meta Learning",
+        "statement": "A meta-learner is a model or algorithm that can adapt to new tasks with limited data by leveraging prior knowledge and experience.",
+        "validation": true
+    },
+    {
+        "category": "Meta Learning",
+        "statement": "In Meta Learning, the term 'meta' refers to the idea of learning about the learning process itself, rather than focusing on specific tasks.",
+        "validation": true
+    },
+    {
+        "category": "Meta Learning",
+        "statement": "Meta Learning is mainly used for supervised learning tasks and has no relevance in unsupervised or reinforcement learning scenarios.",
+        "validation": false
+    },
+    {
+        "category": "Meta Learning",
+        "statement": "Few-shot learning, where a model learns to generalize from a few examples, is a common problem addressed in Meta Learning.",
+        "validation": true
+    },
+    {
+        "category": "Meta Learning",
+        "statement": "Meta Learning models do not require any form of pre-training and can directly adapt to new tasks without prior knowledge.",
+        "validation": false
+    },
+    {
+        "category": "Meta Learning",
+        "statement": "Transfer Learning and Meta Learning are two terms that can be used interchangeably to describe the same concept in machine learning.",
+        "validation": false
+    },
+    {
+        "category": "Meta Learning",
+        "statement": "Meta Learning is primarily focused on achieving high accuracy on well-established benchmark datasets and does not address real-world challenges.",
+        "validation": false
+    },
+    {
+        "category": "Meta Learning",
+        "statement": "Meta Learning has practical applications in areas like computer vision, natural language processing, and robotics, where adapting to new tasks is crucial.",
+        "validation": true
+    }
+]
