@@ -5,7 +5,6 @@ const dojoSchema = new Schema(
 		category: {
 			type: String,
 		},
-
 		attendees: [
 			{
 				type: Schema.Types.ObjectId,
@@ -21,12 +20,10 @@ const dojoSchema = new Schema(
 			type: Boolean,
 		},
 	},
-
 	{
 		timestamps: true,
 	}
 )
-
 const Dojo = model('Dojo', dojoSchema)
 
 module.exports = Dojo
