@@ -38,18 +38,17 @@ const getDailyChallenge = (req, res, next) => {
 }
 
 const getChallengeResponses = (req, res, next) => {
-	console.log(req.params)
 	const { challenge_id } = req.params
 
 	Challenge.findById(challenge_id)
-		.then(challenge => res.json(challenge.responses))
+		.then(({ responses }) => res.json(responses))
 		.catch(err => next(err))
 }
 
 const saveResponse = (req, res, next) => {
 	const { challenge_id } = req.params
 	const { response_id } = req.body
-	console.log(response_id)
+
 	Challenge.findByIdAndUpdate(challenge_id, { $push: { responses: response_id } })
 		.then(() => res.sendStatus(204))
 		.catch(err => next(err))
