@@ -11,7 +11,7 @@ const createComment = (req, res, next) => {
 const getAllComments = (req, res, next) => {
 	const { response_id } = req.params
 
-	Comment.find({ relatedChallenge: response_id })
+	Comment.find({ relatedResponse: response_id })
 		.sort({ createdAt: -1 })
 		.populate('owner')
 		.then(response => res.json(response))

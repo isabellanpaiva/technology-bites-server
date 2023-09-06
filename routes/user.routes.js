@@ -13,7 +13,7 @@ const {
 } = require('../controllers/user.controllers')
 
 router.get('/getOneUser/:user_id', verifyToken, getOneUser)
-router.get('/getAllUsers', verifyToken, getAllUsers)
+router.get('/getAllUsers/:filter', verifyToken, getAllUsers)
 router.delete('/deleteUser/:user_id', verifyToken, isOwner, deleteUser)
 router.put('/editUser/:user_id', verifyToken, isOwner, editUser)
 router.post('/updateFollowers/:action', verifyToken, updateFollowers)

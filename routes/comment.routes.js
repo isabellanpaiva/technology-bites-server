@@ -9,7 +9,7 @@ const {
 } = require('../controllers/comment.controllers')
 
 router.post('/createComment', verifyToken, createComment)
-router.get('/getAllComments/:challenge_id', getAllComments)
+router.get('/getAllComments/:response_id', getAllComments)
 router.post('/editComment/:comment_id', editComment)
 router.delete('/deleteComment/:comment_id', deleteComment)
 

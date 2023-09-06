@@ -9,7 +9,12 @@ const getOneUser = (req, res, next) => {
 		.catch(err => next(err))
 }
 const getAllUsers = (req, res, next) => {
-	User.find()
+	const { _id: user_id } = req.payload
+	const { filter } = req.params
+
+	const query = filter === 'true' ? { followers: user_id } : {}
+
+	User.find(query)
 		.then(response => res.json(response))
 		.catch(err => next(err))
 }

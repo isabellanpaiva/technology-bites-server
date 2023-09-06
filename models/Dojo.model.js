@@ -13,22 +13,13 @@ const dojoSchema = new Schema(
 			},
 		],
 
-		questions: [
-			{
-				definition: {
-					type: String,
-				},
-				validation: {
-					type: Boolean,
-				},
-				approvedUsers: [
-					{
-						type: Schema.Types.ObjectId,
-						ref: 'User',
-					},
-				],
-			},
-		],
+		statement: {
+			type: String,
+		},
+
+		validation: {
+			type: Boolean,
+		},
 	},
 
 	{

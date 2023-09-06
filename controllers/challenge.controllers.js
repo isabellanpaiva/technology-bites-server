@@ -1,16 +1,12 @@
 const Challenge = require('../models/Challenge.model')
 const challengeJson = require('../consts/challenges.json')
 
+const getRandomUsingDate = require('../utils/getRandomUsingDate')
+
 const createOneChallenge = (req, res, next) => {
 	const challengeInfo = ({ category } = req.body)
 
 	Challenge.create(challengeInfo)
-		.then(() => res.sendStatus(200))
-		.catch(err => next(err))
-}
-
-const createManyChallenges = (req, res, next) => {
-	Challenge.insertMany(challengeJson)
 		.then(() => res.sendStatus(200))
 		.catch(err => next(err))
 }
@@ -34,18 +30,11 @@ const getDailyChallenge = (req, res, next) => {
 	Challenge.count()
 		.then(response => {
 			challengesCount = response
-			const currentTimestamp = Math.floor(Date.now() / 1000)
-			let unixTimeInDays = Math.floor(currentTimestamp / (24 * 60 * 60))
-			const randomSeed = 726236523627
-			return Challenge.findOne().skip((unixTimeInDays * randomSeed) % challengesCount)
+			const randomValue = getRandomUsingDate()
+			return Challenge.findOne().skip(randomValue % challengesCount)
 		})
-		.then(reponse => {
-			res.json(reponse)
-		})
-		.catch(err => {
-			console.log(err)
-			next(err)
-		})
+		.then(reponse => res.json(reponse))
+		.catch(err => next(err))
 }
 
 const getChallengeResponses = (req, res, next) => {
@@ -68,7 +57,6 @@ const saveResponse = (req, res, next) => {
 
 module.exports = {
 	createOneChallenge,
-	createManyChallenges,
 	getOneChallenge,
 	getOneRandomChallenge,
 	getChallengeResponses,
