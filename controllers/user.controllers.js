@@ -10,11 +10,25 @@ const getOneUser = (req, res, next) => {
 }
 const getAllUsers = (req, res, next) => {
 	const { _id: user_id } = req.payload
-	const { filter } = req.params
+	const { filter, page } = req.params
 
 	const query = filter === 'true' ? { followers: user_id } : {}
 
 	User.find(query)
+		.limit(7)
+		.skip(6 * page)
+		.then(response => {
+			res.json(response.filter(user => user._id.toString() !== user_id))
+		})
+		.catch(err => next(err))
+}
+
+const getTotalUsers = (req, res, next) => {
+	const { _id: user_id } = req.payload
+	const { filter } = req.params
+
+	const query = filter === 'true' ? { followers: user_id } : {}
+	User.count(query)
 		.then(response => res.json(response))
 		.catch(err => next(err))
 }
@@ -60,6 +74,7 @@ const getCompletedChallenges = (req, res, next) => {
 module.exports = {
 	getOneUser,
 	getAllUsers,
+	getTotalUsers,
 	deleteUser,
 	editUser,
 	updateFollowers,
