@@ -39,7 +39,7 @@ const userSchema = new Schema(
 
 		description: {
 			type: String,
-			minlength: [20, 'Description must be 20 characters minimum'],
+			minlength: [10, 'Description must be 10 characters minimum'],
 		},
 
 		followers: [
