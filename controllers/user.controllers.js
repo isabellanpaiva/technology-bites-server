@@ -15,10 +15,10 @@ const getAllUsers = (req, res, next) => {
 	const query = filter === 'true' ? { followers: user_id } : {}
 
 	User.find(query)
-		.limit(7)
+		.limit(6)
 		.skip(6 * page)
 		.then(response => {
-			res.json(response.filter(user => user._id.toString() !== user_id))
+			res.json(response)
 		})
 		.catch(err => next(err))
 }
